@@ -1,0 +1,36 @@
+{
+  "footer": {
+    "socialShares": "['navigation']['socialLinks']",
+    "contactLinks": "['navigation']['contactLinks']",
+    "contactLinksHeading": "['navigation']['contactLinksHeading']",
+    "footerLinks": "['navigation']['footerLinks']",
+    "footerLinksHeading": "['navigation']['footerLinksHeading']",
+    "noticesLinks": "['navigation']['noticesLinks']",
+    "homeLocation": "['navigation']['internationalInfo']['homeLocation']",
+    "internationalSites": "['navigation']['internationalInfo']['internationalSites']",
+    "siteFooterText": "['configContent']['articleData']['ComponentConfig.SiteFooter.settings.dangerousLegalese']",
+    "siteFooterDisclaimerText": "['configContent']['articleData']['ComponentConfig.SiteFooter.settings.disclaimerText']",
+    "defaultLegalTextValue": "© 2022 Condé Nast. All rights reserved. Use of this site constitutes acceptance of our User Agreement and Privacy Policy and Cookie Statement and Your California Privacy Rights. BrandName may earn a portion of sales from products that are purchased through our site as part of our Affiliate Partnerships with retailers. The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with the prior written permission of Condé Nast. Ad Choices"
+  },
+  "header": {
+    "primaryLinks": "['navigation']['primaryLinks']",
+    "searchLink": "['navigation']['searchLink']",
+    "signInLink": "['navigation']['account']['signInLink']",
+    "secondaryLinks": "['navigation']['secondaryLinks']",
+    "utilityLinks": "['navigation']['utilityLinks']",
+    "navPattern": "['configContent']['homepageConfig']['ComponentConfig.ConnectedNavigation.settings.navPattern']",
+    "standardNavVariation": "['configContent']['homepageConfig']['ComponentConfig.StandardNavigation.variation']",
+    "enableAccount": "['configContent']['homepageConfig']['ComponentConfig.StandardNavigation.settings.isAccountsEnabled']",
+    "featureEnableAccount": "['configContent']['generalData']['feature.enableAccounts']",
+    "showSearch": "['configContent']['homepageConfig']['ComponentConfig.SecondaryMenu.settings.showSearch']",
+    "hasSearch": "['navigationSearch']",
+    "defaultHasSearchValue": "true",
+    "drawerToggleConfig": "['configContent']['homepageConfig']['ComponentConfig.StackedNavigation.variation']",
+    "siteHeaderVariation": "['configContent']['homepageConfig']['ComponentConfig.SiteHeader.variation']",
+    "siteHeaderAccountEnabled": "['configContent']['homepageConfig']['ComponentConfig.SiteHeader.settings.isAccountsEnabled']",
+    "signInFeatureActive": "['configContent']['generalData']['feature.signInActive']",
+    "loginFeature":"['configContent']['homepageConfig']['ComponentConfig.UtilityNavigation.settings.signInLabel']",
+    "navigationDrawer": "['configContent']['homepageConfig']['ComponentConfig.StackedNavigation.settings.showNavigationDrawerOnTopInDesktop']",
+    "overLayDrawer": "['configContent']['homepageConfig']['ComponentConfig.StackedNavigation.settings.showOverlayNavigation']"
+  }
+}

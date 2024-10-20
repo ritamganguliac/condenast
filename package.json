@@ -1,0 +1,41 @@
+{
+  "name": "global-brands-regression-tests",
+  "version": "1.0.0",
+  "description": "To run regression test against all global brands in a end-to-end fashion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "./node_modules/.bin/cypress open",
+    "verso-production-tests": "bash ./scripts/run-verso-tests.sh test-suites/verso production",
+    "verso-staging-tests": "bash ./scripts/run-verso-tests.sh test-suites/verso staging",
+    "verso-staging-ad-india-tests": "bash ./scripts/run-verso-tests.sh test-suites/verso/ad-India staging",
+    "amp-production-tests": "bash ./scripts/run-verso-tests.sh test-suites/amp production",
+    "quiz-staging-tests": "bash ./scripts/run-verso-tests.sh test-suites/quiz staging",
+    "quiz-production-tests": "bash ./scripts/run-verso-tests.sh test-suites/quiz production"
+  },
+  "author": "vijay kesavan",
+  "license": "ISC",
+  "dependencies": {
+    "@currents/cli": "^4.0.3",
+    "@cypress/skip-test": "^2.5.0",
+    "cy2": "4.0.8",
+    "cypress-cloud": "^1.7.4",
+    "cypress-commands": "^1.1.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-terminal-report": "^2.2.0",
+    "date-fns": "^2.22.1",
+    "dayjs": "^1.11.10",
+    "googleapis": "^112.0.0",
+    "he": "^1.2.0",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.15",
+    "number-to-words": "^1.2.4"
+  },
+  "devDependencies": {
+    "@types/cypress": "^1.1.3",
+    "cypress": "12.0.0",
+    "cypress-real-events": "^1.8.1",
+    "cypress-xpath": "^1.6.2",
+    "gmail-tester": "^1.3.8"
+  }
+}

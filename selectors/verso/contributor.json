@@ -1,0 +1,6 @@
+{
+    "contributorHeaderWrapper": "[class*='ContributorHeaderWrapper']",
+    "contributorAvatarImage":  "[class *= ContributorAvatarImage]",
+    "socialIconsListItem": "[class *= SocialIconsListItem] a",
+    "moreStoriesBtn": "[class*=SummaryListButton]"
+}

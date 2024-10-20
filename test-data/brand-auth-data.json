@@ -1,0 +1,135 @@
+{
+    "brand": {
+        "email": "testcaptionscredits0000@yopmail.com",
+        "AD": {
+            "url": "https://user-platform.conde.io/v2/magic-link/create",
+            "body": {
+                "siteCode": "AD",
+                "registrationSourceCode": "CYPRESS_AUTOMATION",
+                "client_id": "condenast.identity.01f7407d302523dddc3622fc685ebdf1",
+                "redirect_uri": "https://www.architecturaldigest.com/auth/complete",
+                "state": "{\"redirectURL\":\"/story/bobby-berk-bedroom-mantras\"}"
+            }
+        },
+        "Allure": {
+            "url": "https://user-platform.conde.io/v2/magic-link/create",
+            "body": {
+                "siteCode": "ALLURE",
+                "registrationSourceCode": "CYPRESS_AUTOMATION",
+                "client_id": "condenast.identity.a318b40d8565866bb6fb642842b94566",
+                "redirect_uri": "https://www.allure.com/auth/complete",
+                "state": "{\"redirectURL\":\"/story/remove-nail-stains-eating-with-hands\"}"
+            }
+        },
+        "cntraveler": {
+            "url": "https://user-platform.conde.io/v2/magic-link/create",
+            "body": {
+                "siteCode": "CONDENASTTRAVELER",
+                "registrationSourceCode": "CYPRESS_AUTOMATION",
+                "client_id": "condenast.identity.40e0eb2ab4c69e30ad1cca13f809d6e8",
+                "redirect_uri": "https://www.cntraveler.com/auth/complete",
+                "state": "{\"redirectURL\":\"/story/travel-resolutions-2024\"}"
+            }
+        },
+        "directory": {
+            "url": "https://user-platform.conde.io/v2/magic-link/create",
+            "body": {
+                "siteCode": "AD",
+                "registrationSourceCode": "CYPRESS_AUTOMATION",
+                "client_id": "condenast.identity.01f7407d302523dddc3622fc685ebdf1",
+                "redirect_uri": "https://www.architecturaldigest.com/auth/complete",
+                "state": "{\"redirectURL\":\"/adpro/directory/application\"}"
+            }
+        },
+        "newyorker": {
+            "url": "https://user-platform.conde.io/v2/magic-link/create",
+            "body": {
+                "siteCode": "NYR",
+                "registrationSourceCode": "CYPRESS_AUTOMATION",
+                "client_id": "condenast.identity.551db804934e94baa14c434240328bf2",
+                "redirect_uri": "https://www.newyorker.com/auth/complete",
+                "state": "{\"redirectURL\":\"/magazine/2020/02/17/with-the-beatles\"}"
+            }
+        },
+        "vanityfair": {
+            "url": "https://user-platform.conde.io/v2/magic-link/create",
+            "body": {
+                "siteCode": "VANITYFAIR",
+                "registrationSourceCode": "CYPRESS_AUTOMATION",
+                "client_id": "condenast.identity.4ca0970018635c02c39f5dd28b507c02",
+                "redirect_uri": "https://www.vanityfair.com/auth/complete",
+                "state": "{\"redirectURL\":\"/news/2023/10/israel-gaza-journalists\"}"
+            }
+        },
+        "vogue": {
+            "url": "https://user-platform.conde.io/v2/magic-link/create",
+            "body": {
+                "siteCode": "VOG",
+                "registrationSourceCode": "CYPRESS_AUTOMATION",
+                "client_id": "condenast.identity.fbc9096dc61f9b79c5ac4c85998da075",
+                "redirect_uri": "https://www.vogue.com/auth/complete",
+                "state": "{\"redirectURL\":\"/article/jodie-comer-olivier-awards\"}"
+            }
+        },
+        "vogueUK": {
+            "url": "https://user-platform.conde.io/v2/magic-link/create",
+            "body": {
+                "siteCode": "VUK",
+                "registrationSourceCode": "CYPRESS_AUTOMATION",
+                "client_id": "condenast.identity.aaa979e448f9a06623ef71621b312e89",
+                "redirect_uri": "https://www.vogue.co.uk/auth/complete",
+                "state": "{\"redirectURL\":\"/fashion/gallery/gucci-best-red-carpet-looks\"}"
+            }
+        },
+        "vogueGermany": {
+            "url": "https://user-platform.conde.io/v2/magic-link/create",
+            "body": {
+                "siteCode": "VDE",
+                "registrationSourceCode": "CYPRESS_AUTOMATION",
+                "client_id": "condenast.identity.bd890ac173585f3d90b6d91bd878efe6",
+                "redirect_uri": "https://www.vogue.de/auth/complete",
+                "state": "{\"redirectURL\":\"/mode/galerie/lady-gaga-outfits-house-of-gucci-set-ikonische-fashion-momente\"}"
+            }
+        },
+        "vogueStag": {
+            "url": "https://stg-user-platform.conde.io/v2/magic-link/create",
+            "body": {
+                "siteCode": "VOG",
+                "registrationSourceCode": "CYPRESS_AUTOMATION",
+                "client_id": "condenast.identity.7888b761ed487f77d12502cb1c909f46",
+                "redirect_uri": "https://stag.vogue.com/auth/complete",
+                "state": "{\"redirectURL\":\"/article/jodie-comer-olivier-awards\"}"
+            }
+        },
+        "vogueUKStag": {
+            "url": "https://stg-user-platform.conde.io/v2/magic-link/create",
+            "body": {
+                "siteCode": "VUK",
+                "registrationSourceCode": "CYPRESS_AUTOMATION",
+                "client_id": "condenast.identity.a46f0a2edd45960a47581ee16e7027ae",
+                "redirect_uri": "https://stag.vogue.co.uk/auth/complete",
+                "state": "{\"redirectURL\":\"/fashion/gallery/gucci-best-red-carpet-looks\"}"
+            }
+        },
+        "vogueGermanyStag": {
+            "url": "https://stg-user-platform.conde.io/v2/magic-link/create",
+            "body": {
+                "siteCode": "VDE",
+                "registrationSourceCode": "CYPRESS_AUTOMATION",
+                "client_id": "condenast.identity.a61637f2ea13813f56f5325c38abd6ea",
+                "redirect_uri": "https://stag.vogue.de/auth/complete",
+                "state": "{\"redirectURL\":\"/mode/galerie/lady-gaga-outfits-house-of-gucci-set-ikonische-fashion-momente\"}"
+            }
+        },
+        "wired": {
+            "url": "https://user-platform.conde.io/v2/magic-link/create",
+            "body": {
+                "siteCode": "WIRED",
+                "registrationSourceCode": "CYPRESS_AUTOMATION",
+                "client_id": "condenast.identity.1d626eb68f1c4350244000c9fc888e38",
+                "redirect_uri": "https://www.wired.com/auth/complete",
+                "state": "{\"redirectURL\":\"/story/for-some-autistic-people-chatgpt-is-a-lifeline\"}"
+            }
+        }
+    }
+}

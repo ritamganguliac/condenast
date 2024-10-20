@@ -1,0 +1,342 @@
+{
+    "favLook": [
+        {
+            "brandname": "Vogue",
+            "behindRegGate": "yes",
+            "galleryHed": "Which looks were your favorite? Cast your vote.",
+            "prompt": "Is this your favorite look?",
+            "votingResultsSoon": "Your vote is in. Check back for results soon.",
+            "votingResultPercent": "% voted yes"
+        },
+        {
+            "brandname": "vogue-uk",
+            "behindRegGate": "yes",
+            "galleryHed": "Which looks were your favourite? Cast your vote.",
+            "prompt": "Is this your favourite look?",
+            "votingResultsSoon": "Your vote is in. Check back for results soon.",
+            "votingResultPercent": "% voted yes"
+        },
+        {
+            "brandname": "vogue-germany",
+            "behindRegGate": "yes",
+            "galleryHed": "Welche Looks waren Ihre Favoriten? Geben Sie Ihre Stimme ab.",
+            "prompt": "Ist das Ihr Lieblingslook?",
+            "votingResultsSoon": "Ihre Stimme ist abgegeben. Die Ergebnisse werden in Kürze veröffentlicht",
+            "votingResultPercent": "%haben mit Ja gestimmt"
+        },
+        {
+            "brandname": "vogue-france",
+            "behindRegGate": "no",
+            "galleryHed": "Quels étaient vos looks préférés ? Votez !",
+            "prompt": "Est-ce votre look préféré ?",
+            "votingResultsSoon": "A voté ! A très vite pour découvrir les résultats.",
+            "votingResultPercent": "% ont voté \"Oui\""
+        },
+        {
+            "brandname": "vogue-india",
+            "behindRegGate": "no",
+            "galleryHed": "Which looks were your favorite? Cast your vote.",
+            "prompt": "Is this your favorite look?",
+            "votingResultsSoon": "Your vote is in. Check back for results soon.",
+            "votingResultPercent": "% voted yes"
+        },
+        {
+            "brandname": "vogue-spain",
+            "behindRegGate": "no",
+            "galleryHed": "¿Cuáles son tus looks favoritos? ¡Vota!",
+            "prompt": "¿Es este tu look favorito?",
+            "votingResultsSoon": "Tu voto ha sido contabilizado. Vuelve pronto para ver los resultados.",
+            "votingResultPercent": "% votos sí"
+        },
+        {
+            "brandname": "vogue-italy",
+            "behindRegGate": "no",
+            "galleryHed": "Quali look ti sono piaciuti di più? Vota!",
+            "prompt": "È questo il tuo look preferito?",
+            "votingResultsSoon": "Hai votato. Resta connesso per scoprire i risultati",
+            "votingResultPercent": "% ha votato sì"
+        },
+        {
+            "brandname": "vogue-japan",
+            "behindRegGate": "no",
+            "galleryHed": "あなたのお気に入りのルックに投票しよう！",
+            "prompt": "これはあなたのお気に入りのルック？",
+            "votingResultsSoon": "投票を受け付けました。結果は後日発表しますのでお楽しみに！",
+            "votingResultPercent": "%がYESに投票"
+        },
+        {
+            "brandname": "vogue-tw",
+            "behindRegGate": "no",
+            "galleryHed": "為你最愛的造型投下一票！",
+            "prompt": "這是你最愛的造型嗎？",
+            "votingResultsSoon": "投票成功！結果稍後揭曉",
+            "votingResultPercent": "% 投票贊成"
+        },
+        {
+            "brandname": "vogue-mexico",
+            "behindRegGate": "no",
+            "galleryHed": "¿Cuáles han sido tus looks favoritos de la gala? ¡Vota!",
+            "prompt": "¿Este es tu look favorito?",
+            "votingResultsSoon": "Tu voto ha sido enviado. Vuelve pronto para ver los resultados.",
+            "votingResultPercent": "% ha votado Sí"
+        }
+    ],
+    "onTheme": [
+        {
+            "brandname": "Vogue",
+            "behindRegGate": "yes",
+            "galleryHed": "Which looks were most on theme? Cast your vote.",
+            "prompt": "Is this look on theme?"
+        },
+        {
+            "brandname": "vogue-uk",
+            "behindRegGate": "yes",
+            "galleryHed": "Which looks were most on theme? Cast your vote.",
+            "prompt": "Is this look on theme?"
+        },
+        {
+            "brandname": "vogue-germany",
+            "behindRegGate": "yes",
+            "galleryHed": "Welche Looks passten am besten zum Thema? Stimmen Sie ab!",
+            "prompt": "Passt dieser Look zum Thema des Abends?"
+        },
+        {
+            "brandname": "vogue-france",
+            "behindRegGate": "no",
+            "galleryHed": "Quelles étaient selon vous les tenues qui collaient le plus au thème ? Votez ici !",
+            "prompt": "Cette tenue est-elle dans le thème selon vous ?"
+        },
+        {
+            "brandname": "vogue-india",
+            "behindRegGate": "no",
+            "galleryHed": "Which looks were most on theme? Cast your vote.",
+            "prompt": "Is this look on theme?"
+        },
+        {
+            "brandname": "vogue-spain",
+            "behindRegGate": "no",
+            "galleryHed": "¿Qué looks se han ajustado mejor a la temática de la gala? ¡Vota!",
+            "prompt": "¿Se ajusta este look a la temática de la gala?"
+        },
+        {
+            "brandname": "vogue-italy",
+            "behindRegGate": "no",
+            "galleryHed": "Quali look erano più in linea con il tema dell'evento? Vota!",
+            "prompt": "Pensi che questo look sia in linea con il tema del gala?"
+        },
+        {
+            "brandname": "vogue-japan",
+            "behindRegGate": "no",
+            "galleryHed": "一番テーマにあっていたルックに投票しよう！",
+            "prompt": "このルックはテーマに合っている？"
+        },
+        {
+            "brandname": "vogue-tw",
+            "behindRegGate": "no",
+            "galleryHed": "哪個造型最符合主題？投下你的一票",
+            "prompt": "這個造型符合主題嗎？"
+        },
+        {
+            "brandname": "vogue-mexico",
+            "behindRegGate": "no",
+            "galleryHed": "¿Qué looks se han ajustado mejor a la temática de la gala? ¡Vota!",
+            "prompt": "¿Este look va con la temática de la gala?"
+        }
+        
+    ],
+    "brands":[
+        {"brandName":"Vogue"},
+        {"brandName":"vogue-uk"},
+        {"brandName":"vogue-india"},
+        {"brandName":"vogue-france"},
+        {"brandName":"vogue-spain"},
+        {"brandName":"vogue-italy"},
+        {"brandName":"vogue-mexico"},
+        {"brandName":"vogue-germany"},
+        {"brandName":"vogue-tw"}
+    ],
+    "vogueWorldBanner": [
+        {
+            "brandname": "Vogue",
+            "dek": "June 23 at 3PM EST",
+            "timeFormat":[ "Days","Hours","Minutes", "Seconds"],
+            "notify":"Notify Me",
+            "liveOnVogue":"Live on Vogue.com",
+            "newsLetterLink": "https://www.vogue.com/newsletter/daily?sourcecode=vogueworldcountdown ",
+            "LiveOnLink": "https://www.vogue.com/article/cara-delevingne-vogue-world-2024-livestream"
+        },
+        {
+            "brandname": "vogue-uk",
+            "dek": "23 June at 20:00 BST",
+            "timeFormat":[ "Days","Hours","Minutes", "Seconds"],
+            "notify":"Notify Me",
+            "liveOnVogue":"Live on Vogue.co.uk",
+            "newsLetterLink": "https://www.vogue.co.uk/newsletters",
+            "LiveOnLink": "https://www.vogue.co.uk/article/vogue-world-livestream-cara-delevingne"
+        },
+        {
+            "brandname": "vogue-spain",
+            "dek": "23 de junio a las 21.00h",
+            "timeFormat":[ "DÍAS","HORAS","MINUTOS", "SEGUNDOS"],
+            "notify":"Deseo recibir una notificación",
+            "liveOnVogue":"En directo en Vogue.es",
+            "newsLetterLink": "https://www.vogue.es/newsletter",
+            "LiveOnLink": "https://www.vogue.es/articulos/como-vogue-world-2024-paris-directo-cara-delevingne"
+        },
+        {
+            "brandname": "vogue-italy",
+            "dek": "23 Giugno ore 21.00",
+            "timeFormat":[ "GIORNI","ORE","MINUTI", "SECONDI"],
+            "notify":"Desidero ricevere notifiche",
+            "liveOnVogue":"In diretta su Vogue.it",
+            "newsLetterLink": "https://www.vogue.it/newsletter-subscribe",
+            "LiveOnLink": "https://www.vogue.it/article/vogue-world-paris-come-vedere-diretta"
+        },
+        {
+            "brandname": "vogue-japan",
+            "dek": "6月24日 4:00AM JST",
+            "timeFormat":[ "Days","Hours","Minutes", "Seconds"],
+            "notify":"最新情報を受け取る",
+            "liveOnVogue":"Live on Vogue.co.jp",
+            "newsLetterLink": "https://www.vogue.co.jp/article/cara-delevingne-vogue-world-2024-livestream",
+            "LiveOnLink": "https://www.vogue.co.jp/article/cara-delevingne-vogue-world-2024-livestream"
+        },
+        {
+            "brandname": "vogue-mexico",
+            "dek": "23 de junio a la 1:00 pm",
+            "timeFormat":[ "DÍAS","HORAS","MINUTOS", "SEGUNDOS"],
+            "notify":"NOTIFICARME",
+            "liveOnVogue":"En vivo en Vogue.mx",
+            "newsLetterLink": "https://www.vogue.mx/newsletter",
+            "LiveOnLink": "https://www.vogue.mx/articulo/donde-ver-vogue-world-2024"
+        },
+        {
+            "brandname": "vogue-tw",
+            "dek": "6月24日 3:00AM",
+            "timeFormat":[ "Days","Hours","Minutes", "Seconds"],
+            "notify":"直播在哪看？",
+            "liveOnVogue":"Live on Vogue.tw",
+            "newsLetterLink": "https://www.vogue.com.tw/article/cara-delevingne-vogue-world-2024-livestream",
+            "LiveOnLink": "https://www.vogue.com.tw/article/cara-delevingne-vogue-world-2024-livestream"
+        },
+        {
+            "brandname": "vogue-germany",
+            "dek": "23. Juni um 21 Uhr",
+            "timeFormat":[ "TAGE","STUNDEN","MINUTEN", "SEKUNDEN"],
+            "notify":"Schicken Sie mir eine Nachricht",
+            "liveOnVogue":"Live auf Vogue.de",
+            "newsLetterLink": "https://www.vogue.de/service/page/newsletter-anmeldung ",
+            "LiveOnLink": "https://www.vogue.de/artikel/vogue-world-2024-paris-livestream"
+        },
+        {
+            "brandname": "vogue-france",
+            "dek": "23 juin à 21h",
+            "timeFormat":[ "JOURS","HEURES","MINUTES", "SECONDES"],
+            "notify":"Prévenez-moi",
+            "liveOnVogue":"En direct sur Vogue.fr",
+            "newsLetterLink": "https://newsletter.vogue.fr/",
+            "LiveOnLink": "https://www.vogue.fr/article/vogue-world-paris-comment-regarder-livestream-en-direct"
+        },
+        {
+            "brandname": "vogue-india",
+            "dek": "June 24 at 12:30AM IST",
+            "timeFormat":[ "Days","Hours","Minutes", "Seconds"],
+            "notify":"How To Watch",
+            "liveOnVogue":"Live on Vogue.in",
+            "newsLetterLink": "https://www.vogue.in/content/how-to-watch-the-vogue-world-2024-paris-livestream-hosted-by-cara-delevingne",
+            "LiveOnLink": "https://www.vogue.in/content/how-to-watch-the-vogue-world-2024-paris-livestream-hosted-by-cara-delevingne"
+        }
+    ],
+    "metGalaBanner": [
+        {
+            "brandname": "Vogue",
+            "dek": "MAY 6 AT 6:00PM ET",
+            "timeFormat":[ "Days","Hours","Minutes", "Seconds"],
+            "notify":"Notify Me",
+            "liveOnVogue":"Live on Vogue.com",
+            "newsLetterLink": "https://www.vogue.com/newsletter/daily?sourcecode=metgalacountdown",
+            "LiveOnLink": "https://www.vogue.com/tag/event/met-gala"
+        },
+        {
+            "brandname": "vogue-uk",
+            "dek": "6 May at 23:00 BST",
+            "timeFormat":[ "Days","Hours","Minutes", "Seconds"],
+            "notify":"PREVIEW THE MET GALA",
+            "liveOnVogue":"Live on Vogue.co.uk",
+            "newsLetterLink": "https://www.vogue.co.uk/tags/met-ball",
+            "LiveOnLink": "https://www.vogue.co.uk/tags/met-ball"
+        },
+        {
+            "brandname": "vogue-spain",
+            "dek": "7 DE MAYO, 24:00 GMT+2",
+            "timeFormat":[ "DÍAS","HORAS","MINUTOS", "SEGUNDOS"],
+            "notify":"VISTA PREVIA DE LA MET GALA",
+            "liveOnVogue":"En directo en Vogue.es",
+            "newsLetterLink": "https://www.vogue.es/celebrities/gala-met",
+            "LiveOnLink": "https://www.vogue.es/celebrities/gala-met"
+        },
+        {
+            "brandname": "vogue-italy",
+            "dek": "7 MAGGIO, 24:00 GMT+2",
+            "timeFormat":[ "GIORNI","ORE","MINUTI", "SECONDI"],
+            "notify":"ANTEPRIMA DEL MET GALA",
+            "liveOnVogue":"In diretta su Vogue.it",
+            "newsLetterLink": "https://www.vogue.it/tags/met-gala",
+            "LiveOnLink": "https://www.vogue.it/tags/met-gala"
+        },
+        {
+            "brandname": "vogue-japan",
+            "dek": "5月7日 7:00am JST",
+            "timeFormat":[ "Days","Hours","Minutes", "Seconds"],
+            "notify":"最新情報を受け取る",
+            "liveOnVogue":"Live on Vogue.co.jp",
+            "newsLetterLink": "https://link.condenast.jp/join/6dd/vg-news-signup",
+            "LiveOnLink": "https://www.vogue.co.jp/tag/metgala"
+        },
+        {
+            "brandname": "vogue-mexico",
+            "dek": "6 DE MAYO, 4:00PM GMT-5",
+            "timeFormat":[ "DÍAS","HORAS","MINUTOS", "SEGUNDOS"],
+            "notify":"NOTIFICARME",
+            "liveOnVogue":"En vivo en Vogue.mx",
+            "newsLetterLink": "https://www.vogue.mx/newsletter",
+            "LiveOnLink": "https://www.vogue.mx/alfombra-roja/met-gala"
+        },
+        {
+            "brandname": "vogue-tw",
+            "dek": "5月7日, 6:00 AM GMT+8",
+            "timeFormat":[ "Days","Hours","Minutes", "Seconds"],
+            "notify":"提醒我",
+            "liveOnVogue":"Live on Vogue.com.tw",
+            "newsLetterLink": "https://link.vogue.com.tw/join/6df/voguesignup",
+            "LiveOnLink": "https://www.vogue.com.tw/tag/met-gala"
+        },
+        {
+            "brandname": "vogue-germany",
+            "dek": "7. MAI, 00:00",
+            "timeFormat":[ "TAGE","STUNDEN","MINUTEN", "SEKUNDEN"],
+            "notify":"VORSCHAU AUF DIE MET GALA",
+            "liveOnVogue":"Live auf Vogue.de",
+            "newsLetterLink": "https://www.vogue.de/tag/met-gala",
+            "LiveOnLink": "https://www.vogue.de/tag/met-gala"
+        },
+        {
+            "brandname": "vogue-france",
+            "dek": "Mardi 7 mai dès 00H00",
+            "timeFormat":[ "JOURS","HEURES","MINUTES", "SECONDES"],
+            "notify":"Prévenez moi",
+            "liveOnVogue":"En direct sur Vogue.fr",
+            "newsLetterLink": "https://newsletter.vogue.fr/",
+            "LiveOnLink": "https://www.vogue.fr/dossier/met-gala"
+        },
+        {
+            "brandname": "vogue-india",
+            "dek": "May 7 at 3:30 am IST",
+            "timeFormat":[ "Days","Hours","Minutes", "Seconds"],
+            "notify":"preview the met gala",
+            "liveOnVogue":"Live on Vogue.in",
+            "newsLetterLink": "https://www.vogue.in/topics/metgala",
+            "LiveOnLink": "https://www.vogue.in/topics/met-gala"
+        }
+    ]
+}

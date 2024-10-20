@@ -1,0 +1,166 @@
+version: "0.1"
+user: guru_murugan
+key: snCIZY5e50EckCyM0zwGWdMpYJOhdc2fDqN8ntWsQD4RpCcTMd
+matrix: {browser: [firefox], os: [mac]}
+testSuites: []
+pre: [npm install, npm install cypress --save-dev]
+preDirectives:
+    commands: [npm install, npm install cypress --save-dev]
+    maxRetries: 0
+    shell: ""
+    workingDirectory: ""
+postDirectives:
+    commands: []
+    shell: ""
+    workingDirectory: ""
+env:
+    CYPRESS_CACHE_FOLDER: cypressCache
+    LT_SDK_DEBUG: "true"
+jobLabel:
+    - cypress-v12
+    - win
+    - hybrid
+runson: ${matrix.os}
+autosplit: true
+concurrency: 1
+testDiscovery:
+    autosubset: true
+    command: ls test-suites/**/**/*.* | grep -v -E "the-author-hub-page.spec.js|gq-france|gq-tw|gq-spain|gq-japan|gq-mexico|gq-italy|gq-germany|conde-nast-traveler/adServerSelection.spec.js|ad-admin|vogueWorld-MetGala-EventBanner-validation.spec.js|vogueWorld-MetGala-tagPage-USUK.spec.js|vogueWorld-MetGala-tagPage-other-markets.spec.js|vogue-voting-onTheme-validation.spec.js|vogue-voting-favLook-validation.spec.js|vogue-polaroid.spec.js|ad-directory-formPage.spec.js"
+    macCommand: ls test-suites/**/**/*.* | grep -v -E "the-author-hub-page.spec.js|gq-france|gq-tw|gq-spain|gq-japan|gq-mexico|gq-italy|gq-germany|conde-nast-traveler/adServerSelection.spec.js|ad-admin|vogueWorld-MetGala-EventBanner-validation.spec.js|vogueWorld-MetGala-tagPage-USUK.spec.js|vogueWorld-MetGala-tagPage-other-markets.spec.js|vogue-voting-onTheme-validation.spec.js|vogue-voting-favLook-validation.spec.js|vogue-polaroid.spec.js|ad-directory-formPage.spec.js"
+    mode: dynamic
+    type: raw
+testRunnerCommand: npx cypress run  --spec $test --config video=false --headed
+globalTimeout: 100
+tunnelOpts:
+    testsPerTunnel: 10
+testSuiteTimeout: 90
+testSuiteStep: 90
+cacheDirectories:
+    - node_modules
+cacheKey: '{{ checksum "package.json" }}'
+maxRetries: 2
+jobID: 41b57f75-11d8-4388-9d5f-951b5c4689d8
+parallelism: 10
+macParallelism: 10
+macTestRunnerCommand: npx cypress run  --spec $test --config video=false --headed
+codeDirectory: cypress-automation
+report: true
+partialReports:
+    - type: html
+      location: target/surefire-reports/html
+      frameworkName: Brand_Repo-Cypress Regression Report
+      email:
+        to:
+            - guru_murugan@condenast.com
+        metaInfo: []
+        linkValidity: 0
+      configPath: ""
+      configPathURL: ""
+framework:
+    name: ""
+    flags: []
+    discoveryFlags: []
+    discoveryMode: ""
+    discoveryType: ""
+    runnerFlags: []
+    workingDirectory: ""
+    isTestNGXMLSuite: false
+    defaultReports: false
+    args:
+        appPath: ""
+        testSuitePath: ""
+        xcTestPlanPath: ""
+        shards:
+            mappings: []
+        filters:
+            attributes: []
+        devices: []
+        deviceSelectionStrategy: ""
+        appId: ""
+        testSuiteAppId: ""
+        xcTestPlanId: ""
+        skipXMLOnRun: false
+        skipInstall: false
+        disableReleaseDevice: false
+        platformName: ""
+        isRealMobile: false
+        avoidAppLaunch: false
+        queueTimeout: 0
+        uninstallPreviousBuild: false
+        language: ""
+        locale: ""
+        preservedDevice: false
+        fixedIP: ""
+        resignApp: true
+        minorOsVersion: false
+        playwrightRD: false
+        mobileDC: null
+        skipUninstallPreviousBuild: false
+        isVirtualDevice: false
+        mitmProxy: false
+        networkHar: false
+    additional_args: null
+    licenseKey: ""
+    userdefinediscovery: false
+    toscaArgs: null
+    version: ""
+    downloadURL: ""
+    baseCommand: ""
+cypressOps:
+    build: Hyperexecute Cypress automation test
+    tags:
+        - Hyperexecute
+        - Cypress
+        - Windows
+        - Hybrid
+    network: false
+    buildTags:
+        - Hyperexecute-Cypress
+    geoLocation: ""
+    name: ""
+    performance: false
+    dedicatedProxy: false
+    geoLocationVendor: ""
+    runOnNx: false
+    smartUICaps:
+        smartUIProjectName: ""
+        smartUIProjectKey: ""
+        smartUIBuildName: ""
+        smartUIBaseline: false
+        smartUICompare: ""
+        smartUIOptions: {}
+    har: false
+    fullHar: false
+    accessibility: false
+    accessibilityWcagVersion: ""
+    accessibilityBestPractice: false
+    accessibilityNeedsReview: false
+cypress: true
+betaFeature:
+    setPartiallyCompletedAsCompleted: false
+combineTasksInMatrixMode: false
+captureScreenRecordingForScenarios: false
+maxRetriesPreSteps: 0
+triggerMode: false
+sourcePayload:
+    verifySSL: true
+collectLocalGitData: true
+dynamicAllocation: false
+appium: false
+platformConfig: null
+differentialUpload:
+    enabled: false
+    ttlHours: null
+    forcedDisabled: false
+project:
+    id: ""
+    name: ""
+    type: default
+meta: {}
+alwaysRunPostSteps: false
+errorCategorizedOnFailureOnly: false
+testDiscoveryResultV3: []
+storageType: ""
+localHTTPProxy: ""
+regionConfig: []
+waitForArtefactsUpload: false

@@ -1,0 +1,35 @@
+{
+    "instructions": {
+        "image": {
+            "altText": "instructions",
+            "sources": {
+                "sm": {
+                    "url": "/verso/static/the-new-yorker/assets/CaptionContest/ccc-instruction-logo.svg"
+                }
+            }
+        },
+        "dek": "<b>How it works:</b> Each week, we provide an original cartoon in need of a caption. You, the reader, can submit a caption for that week’s contest; help us find the best (and root out the worst) by rating the funniness of captions from the previous week’s contest; or help select the winning caption by voting on three finalists from the week prior.</br> </br>Feel free to dive in and get voting, even if you haven’t submitted a caption. Many strive to etch their names into the hall of fame of cartoon captioning. Do you have what it takes?</br></br>Please refer to the complete rules for additional details."
+    },
+    "captionStages": [
+        {
+            "key": "acceptingSubmissions",
+            "value": "Submit",
+            "position": 1
+        },
+        {
+            "key": "chooseFinalists",
+            "value": "Rate",
+            "position": 2
+        },
+        {
+            "key": "generalVoting",
+            "value": "Vote",
+            "position": 3
+        },
+        {
+            "key": "displayWinner",
+            "value": "Winner",
+            "position": 4
+        }
+    ]
+}

@@ -1,0 +1,186 @@
+{
+    "hideDek": {
+        "path": {
+            "generalConfigPath": "['generalData']['feature.hideFeatureDek']",
+            "homepageConfigPath": "['homepageConfig']['channelConfig.hideFeatureDek']",
+            "versoFeaturesLevelConfigPath": "['homepageConfig']['ComponentConfig.VersoFeatures.settings.hideFeatureDek']",
+            "summaryItemLevelConfigPath": "['homepageConfig']['ComponentConfig.SummaryItem.settings.shouldHideDangerousDek']"
+        },
+        "defaultValue": "false"
+    },
+    "hideByLine": {
+        "path": {
+            "generalConfigPath": "['generalData']['feature.hideByline']",
+            "homepageConfigPath": "['homepageConfig']['channelConfig.hideByline']",
+            "versoFeaturesLevelConfigPath": "['homepageConfig']['ComponentConfig.VersoFeatures.settings.shouldHideBylines']",
+            "summaryItemLevelConfigPath": "['homepageConfig']['ComponentConfig.SummaryItem.settings.shouldHideBylines']"
+        },
+        "defaultValue": "false"
+    },
+    "hideSummaryCollageOneByLine": {
+        "path": {
+            "summaryCollageOneLevelConfigPath": "['homepageConfig']['ComponentConfig.SummaryCollageOne.settings.shouldHideBylines']"
+        },
+        "defaultValue": "false"
+    },
+    "hideRubric": {
+        "path": {
+            "summaryItemLevelConfigPath": "['homepageConfig']['ComponentConfig.SummaryItem.settings.hideRubricItemSummary']",
+            "versoFeaturesLevelConfigPath": "['homepageConfig']['ComponentConfig.VersoFeatures.settings.hideRubricItemSummary']"
+        },
+        "defaultValue": "false"
+    },
+    "hideFeatureDekFromIndex": {
+        "path": {
+            "generalConfigPath": "['generalData']['feature.hideFeatureDekFromIndex']",
+            "homepageConfigPath": "['homepageConfig']['channelConfig.hideFeatureDekFromIndex']",
+            "versoFeaturesLevelConfigPath": "['homepageConfig']['ComponentConfig.VersoFeatures.settings.hideFeatureDekFromIndex']"
+        },
+        "defaultValue": 100000
+    },
+    "hideHomepageRelated": {
+        "path": {
+            "generalConfigPath": "['generalData']['feature.hideHomepageRelated']"
+        },
+        "defaultValue": "false"
+    },
+    "recommendedHed": {
+        "path": {
+            "homepageConfigPath": "['homepageConfig']['channelConfig.recommendedHed']"
+        },
+        "defaultValue": "Trending Stories"
+    },
+    "showRiverHed": {
+        "path": {
+            "summaryRiverConfigPath": "['homepageConfig']['ComponentConfig.SummaryRiver.settings.shouldShowRiverHed']"
+        },
+        "defaultValue": "false"
+    },
+    "hideTickerButton": {
+        "path": {
+            "homepageConfigPath": "['homepageConfig']['ComponentConfig.Ticker.settings.isLink']"
+        },
+        "defaultValue": "false"
+    },
+    "showDataSectionTitle": {
+        "path": {
+            "homepageConfigPath": "['homepageConfig']['ComponentConfig.MultiPackages.settings.shouldEnableBundleComponentAnalytics']"
+        },
+        "defaultValue": "false"
+    },
+    "shouldUseDekAsHed": {
+        "path": {
+            "homepageConfigPath": "['homepageConfig']['ComponentConfig.SummaryCollageNine.settings.shouldUseDekAsHed']"
+        },
+        "defaultValue": "false"
+    },
+    "summaryCollageEightNineMainHero": {
+        "path": {
+            "homepageConfigPath": "['homepageConfig']['ComponentConfig.SummaryCollageNine.settings.trackingNamespace.main.hero']"
+        }
+    },
+    "summaryCollageEightNineMainAside": {
+        "path": {
+            "homepageConfigPath": "['homepageConfig']['ComponentConfig.SummaryCollageNine.settings.trackingNamespace.main.aside']"
+        }
+    },
+    "summaryCollageEightNineMainUnder": {
+        "path": {
+            "homepageConfigPath": "['homepageConfig']['ComponentConfig.SummaryCollageNine.settings.trackingNamespace.main.under']"
+        }
+    },
+    "summaryCollageEightNineRightRail": {
+        "path": {
+            "homepageConfigPath": "['homepageConfig']['ComponentConfig.SummaryCollageNine.settings.trackingNamespace.rightRail']"
+        }
+    },
+    "versoIssueInlineLinks": {
+        "path": {
+            "inlineLinks": "['homepageConfig']['ComponentConfig.VersoIssueFeature.settings.trackingNamespace.inlineLinks']"
+        }
+    },
+    "versoIssueToc": {
+        "path": {
+            "toc": "['homepageConfig']['ComponentConfig.VersoIssueFeature.settings.trackingNamespace.toc']"
+        }
+    },
+    "versoIssueCover": {
+        "path": {
+            "issueCover": "['homepageConfig']['ComponentConfig.VersoIssueFeature.settings.trackingNamespace.issueCover']"
+        }
+    },
+    "summaryCollageNineShouldHideDangerousDekInSummaryList": {
+        "path": {
+            "homepageConfigPath": "['homepageConfig']['ComponentConfig.SummaryCollageNine.settings.shouldHideDangerousDekInSummaryList']"
+        },
+        "defaultValue": "true"
+    },
+    "tickerButtonText": {
+        "path": {
+            "homepageConfigPath": "['homepageConfig']['ComponentConfig.Ticker.settings.link.text']"
+        }
+    },
+    "tickerButtonUrl": {
+        "path": {
+            "homepageConfigPath": "['homepageConfig']['ComponentConfig.Ticker.settings.link.href']"
+        }
+    },
+    "versoIssueFeatureHideSectionTitle": {
+        "path": {
+            "homepageConfigPath": "['homepageConfig']['ComponentConfig.VersoIssueFeature.settings.hideSectionTitle']"
+        },
+        "defaultValue": false
+    },
+    "versoIssueFeatureHideSourceDek": {
+        "path": {
+            "homepageConfigPath": "['homepageConfig']['ComponentConfig.VersoIssueFeature.settings.hideSourceDek']"
+        },
+        "defaultValue": false
+    },
+    "versoIssueFeatureHideItemHed": {
+        "path": {
+            "homepageConfigPath": "['homepageConfig']['ComponentConfig.VersoIssueFeature.settings.hideItemHed']"
+        },
+        "defaultValue": "true"
+    },
+    "summaryCollageFiveCenter": {
+        "path": {
+            "homepageConfigPath": "['homepageConfig']['ComponentConfig.SummaryCollageFive.settings.trackingNamespace.center']"
+        }
+    },
+    "summaryCollageFiveAside": {
+        "path": {
+            "homepageConfigPath": "['homepageConfig']['ComponentConfig.SummaryCollageFive.settings.trackingNamespace.aside']"
+        }
+    },
+    "summaryCollageFiftyFiftyOneColumn": {
+        "path": {
+            "homepageConfigPath": "['homepageConfig']['ComponentConfig.SummaryCollageFiftyFifty.settings.layout']"
+        }
+    },
+    "summaryRiverTrackingSpaceHome": {
+        "path": {
+            "homepageConfigPath": "['homepageConfig']['ComponentConfig.SummaryRiver.settings.trackingNamespace']"
+        }
+    },
+    "summaryRiverTrackingSpaceGallery": {
+        "path": {
+            "homepageConfigPath": "['galleryData']['ComponentConfig.SummaryRiver.settings.trackingNamespace']"
+        }
+    },
+    "FilterableSummaryList": {
+        "path": {
+            "homepageConfigPath": "['homepageConfig']['ComponentConfig.FilterableSummaryList.settings.isDotClickable']"
+        }
+    },
+    "authorTag": {
+        "path": {
+            "authorTag": "['homepageConfig']['ComponentConfig.MultiPackages.settings.defaultTypeForContributor']"
+        }
+    },
+    "runwayEvent": {
+        "path": {
+            "homepageConfigPath": "['homepageConfig']['ComponentConfig.GroupedNavigation.settings.analyticsEventForFilter']"
+        }
+    }
+}

@@ -1,0 +1,159 @@
+{
+    "labels": [
+        "Quick",
+        "Easy",
+        "Vegan"
+    ],
+    "sortBy": {
+        "sortByText": "Sort By:",
+        "sortByList": [
+            "Most Recent",
+            "Highest Rating",
+            "Most Reviewed"
+        ],
+        "filter": "pubDate",
+        "sortByValue": "Most Recent"
+    },
+    "urlSlug": {
+        "filter": "?filter=",
+        "sortBy": "&sort=",
+        "linkSlug": "%2C",
+        "notIncludeComma": ",",
+        "notIncludeSpace": " "
+    },
+    "filter": {
+        "filterText": "Filter Results",
+        "filterLabelRemoveText": " Close",
+        "filterResetText": "Clear All",
+        "filterList": [
+            {
+                "name": "Popular",
+                "list": [
+                    "Quick",
+                    "Easy",
+                    "Weeknight Meals",
+                    "Breakfast",
+                    "Lunch",
+                    "Dinner",
+                    "Dessert",
+                    "Main",
+                    "Side",
+                    "Starter",
+                    "Snack"
+                ],
+                "gql_list": [
+                    "simple-cooking/quick",
+                    "simple-cooking/easy",
+                    "simple-cooking/weeknight-meals",
+                    "meal-time/breakfast",
+                    "meal-time/lunch",
+                    "meal-time/dinner",
+                    "dish/dessert",
+                    "meal/main",
+                    "meal/side",
+                    "meal/starter",
+                    "meal/snack"
+                ]
+            },
+            {
+                "name": "Diets",
+                "list": [
+                    "Vegetarian",
+                    "Vegan",
+                    "Gluten Free",
+                    "Dairy Free",
+                    "Nut Free",
+                    "Keto",
+                    "Raw"
+                ],
+                "gql_list": [
+                    "diet/vegetarian",
+                    "diet/vegan",
+                    "diet/gluten-free",
+                    "diet/dairy-free",
+                    "diet/nut-free",
+                    "diet/keto",
+                    "diet/raw"
+                ]
+            },
+            {
+                "name": "Cuisines & Flavors",
+                "list": [
+                    "African",
+                    "East African",
+                    "North African",
+                    "West African",
+                    "American",
+                    "Asian",
+                    "East Asian",
+                    "South Asian",
+                    "Southeast Asian",
+                    "Caribbean",
+                    "European",
+                    "Latin American",
+                    "Central American",
+                    "South American",
+                    "Levantine",
+                    "Mediterranean",
+                    "Middle Eastern"
+                ],
+                "gql_list": [
+                    "cuisine/african",
+                    "cuisine/african/east-african",
+                    "cuisine/african/north-african",
+                    "cuisine/african/west-african",
+                    "cuisine/american",
+                    "cuisine/asian",
+                    "cuisine/asian/east-asian",
+                    "cuisine/asian/south-asian",
+                    "cuisine/asian/southeast-asian",
+                    "cuisine/caribbean",
+                    "cuisine/european",
+                    "cuisine/latin-american",
+                    "cuisine/central-american",
+                    "cuisine/south-american",
+                    "cuisine/levantine",
+                    "cuisine/mediterranean",
+                    "cuisine/middle-eastern"
+                ]
+            }
+        ],
+        "filterCombination": [
+            {
+                "name": "Popular",
+                "list": [
+                    "Quick",
+                    "Weeknight Meals"
+                ],
+                "gql_list": [
+                    "simple-cooking/quick",
+                    "simple-cooking/weeknight-meals"
+                ],
+                "index": 0
+            },
+            {
+                "name": "Diets",
+                "list": [
+                    "Vegetarian",
+                    "Vegan"
+                ],
+                "gql_list": [
+                    "diet/vegetarian",
+                    "diet/vegan"
+                ],
+                "index": 1
+            },
+            {
+                "name": "Cuisines & Flavors",
+                "list": [
+                    "American"
+                ],
+                "gql_list": [
+                    "cuisine/american"
+                ],
+                "index": 2
+            }
+        ]
+    },
+    "filterErrorText": "Sorry we can't display any results for those filtering options, please try again"
+}

@@ -1,0 +1,174 @@
+alwaysRunPostSteps: false
+appium: false
+autosplit: true
+betaFeature:
+    setPartiallyCompletedAsCompleted: false
+cacheDirectories:
+    - node_modules
+cacheKey: '{{ checksum "package.json" }}'
+captureScreenRecordingForScenarios: false
+codeDirectory: guru_condenast
+collectLocalGitData: true
+combineTasksInMatrixMode: false
+concurrency: 1
+cypress: true
+cypressOps:
+    accessibility: false
+    accessibilityBestPractice: false
+    accessibilityNeedsReview: false
+    accessibilityWcagVersion: ""
+    build: Hyperexecute Cypress automation test
+    buildTags:
+        - Hyperexecute-Cypress
+    dedicatedProxy: false
+    fullHar: false
+    geoLocation: ""
+    geoLocationVendor: ""
+    har: false
+    name: ""
+    network: false
+    performance: false
+    runOnNx: false
+    smartUICaps:
+        smartUIBaseline: false
+        smartUIBuildName: ""
+        smartUICompare: ""
+        smartUIOptions: {}
+        smartUIProjectKey: ""
+        smartUIProjectName: ""
+    tags:
+        - Hyperexecute
+        - Cypress
+        - Windows
+        - Hybrid
+differentialUpload:
+    enabled: false
+    forcedDisabled: false
+    ttlHours: null
+dynamicAllocation: false
+env:
+    CYPRESS_CACHE_FOLDER: cypressCache
+    LT_SDK_DEBUG: "true"
+errorCategorizedOnFailureOnly: false
+framework:
+    additional_args: null
+    args:
+        appId: ""
+        appPath: ""
+        avoidAppLaunch: false
+        deviceSelectionStrategy: ""
+        devices: []
+        disableReleaseDevice: false
+        filters:
+            attributes: []
+        fixedIP: ""
+        isRealMobile: false
+        isVirtualDevice: false
+        language: ""
+        locale: ""
+        minorOsVersion: false
+        mitmProxy: false
+        mobileDC: null
+        networkHar: false
+        platformName: ""
+        playwrightRD: false
+        preservedDevice: false
+        queueTimeout: 0
+        resignApp: true
+        shards:
+            mappings: []
+        skipInstall: false
+        skipUninstallPreviousBuild: false
+        skipXMLOnRun: false
+        testSuiteAppId: ""
+        testSuitePath: ""
+        uninstallPreviousBuild: false
+        xcTestPlanId: ""
+        xcTestPlanPath: ""
+    baseCommand: ""
+    defaultReports: false
+    discoveryFlags: []
+    discoveryMode: ""
+    discoveryType: ""
+    downloadURL: ""
+    flags: []
+    isTestNGXMLSuite: false
+    licenseKey: ""
+    name: ""
+    runnerFlags: []
+    toscaArgs: null
+    userdefinediscovery: false
+    version: ""
+    workingDirectory: ""
+globalTimeout: 100
+jobID: cdd4d0bb-613f-4b68-bf69-0e638d8fa9c2
+jobLabel:
+    - cypress-v12
+    - win
+    - hybrid
+key: dl8Y8as59i1YyGZZUeLF897aCFvIDmaKkUU1e6RgBmlgMLIIhh
+localHTTPProxy: ""
+macParallelism: 1
+macTestRunnerCommand: npx cypress run  --spec $test --config video=false --headed
+matrix:
+    browser:
+        - firefox
+    os:
+        - mac
+maxRetries: 2
+maxRetriesPreSteps: 0
+meta: {}
+parallelism: 1
+partialReports:
+    type: html
+    location: target/surefire-reports/html
+    frameworkName: Brand_Repo-Cypress Regression Report
+    email:
+        to:
+            - guru_murugan@condenast.com
+        metaInfo: []
+        linkValidity: 0
+    configPath: ""
+    configPathURL: ""
+platformConfig: null
+postDirectives:
+    commands: []
+    shell: ""
+    workingDirectory: ""
+pre:
+    - npm install
+    - npm install cypress --save-dev
+preDirectives:
+    commands:
+        - npm install
+        - npm install cypress --save-dev
+    maxRetries: 0
+    shell: ""
+    workingDirectory: ""
+project:
+    id: ""
+    name: ""
+    type: default
+regionConfig: []
+report: true
+runson: ${matrix.os}
+sourcePayload:
+    verifySSL: true
+storageType: ""
+testDiscovery:
+    autosubset: true
+    command: node ritam.js
+    macCommand: node ritam.js
+    mode: dynamic
+    type: raw
+testDiscoveryResultV3: []
+testRunnerCommand: npx cypress run  --spec $test --config video=false --headed
+testSuiteStep: 90
+testSuiteTimeout: 90
+testSuites: []
+triggerMode: false
+tunnelOpts:
+    testsPerTunnel: 10
+user: shubhamr
+version: "0.1"
+waitForArtefactsUpload: false

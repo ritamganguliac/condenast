@@ -1,0 +1,9 @@
+{
+    "categories" : 
+    {
+        "Architecture" : ["Building Architect", "Interior Architect", "Residential Architect" ],
+        "Interior Design + Decor" : ["Decorator", "Design Consultant", "Interior Design Consultant", "Interior Designer", "Kitchen Designer", "Stylist"],
+        "Outdoor + Garden Design" : ["Landscape Architect", "Landscape Designer"]
+
+    }
+}

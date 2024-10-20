@@ -1,0 +1,139 @@
+{"level":"debug","time":"2024-10-20T15:14:06.377+0530","caller":"cmd/bin.go:120","msg":"cli os: darwin, cli arch: amd64"}
+{"level":"debug","time":"2024-10-20T15:14:07.463+0530","caller":"cmd/bin.go:129","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.224} "}
+{"level":"debug","time":"2024-10-20T15:14:09.754+0530","caller":"core/lifecycle.go:104","msg":"Setting environment"}
+{"level":"debug","time":"2024-10-20T15:14:09.755+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2024-10-20T15:14:09.755+0530","caller":"yamlconfigmanager/setup.go:593","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperExe.yml"}
+{"level":"debug","time":"2024-10-20T15:14:09.755+0530","caller":"yamlconfigmanager/setup.go:108","msg":"using hyperexecute config from : hyperExe.yml"}
+{"level":"debug","time":"2024-10-20T15:14:09.759+0530","caller":"yamlconfigmanager/setup.go:2067","msg":"Environment variable not set against the variable- matrix.os mentioned in yaml"}
+{"level":"debug","time":"2024-10-20T15:14:10.618+0530","caller":"yamlconfigmanager/setup.go:2277","msg":"Autodetecting test type in files of path : /Users/ritamg/Downloads/guru_condenast"}
+{"level":"debug","time":"2024-10-20T15:14:10.619+0530","caller":"yamlconfigmanager/setup.go:445","msg":"Tunnel: false"}
+{"level":"info","time":"2024-10-20T15:14:10.619+0530","caller":"models/HypertestYamlConfig.go:723","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2024-10-20T15:14:10.619+0530","caller":"models/HypertestYamlConfig.go:522","msg":"Mode:    \u001b[36mhybrid\u001b[0m"}
+{"level":"info","time":"2024-10-20T15:14:10.619+0530","caller":"models/HypertestYamlConfig.go:576","msg":"Parallelism:    \u001b[36m Mac - 10  Default - 10\u001b[0m"}
+{"level":"info","time":"2024-10-20T15:14:10.619+0530","caller":"models/HypertestYamlConfig.go:584","msg":"Runson:    \u001b[36m${matrix.os}\u001b[0m"}
+{"level":"info","time":"2024-10-20T15:14:10.619+0530","caller":"models/HypertestYamlConfig.go:592","msg":"Concurrency:    \u001b[36m1\u001b[0m"}
+{"level":"info","time":"2024-10-20T15:14:10.619+0530","caller":"models/HypertestYamlConfig.go:656","msg":"Report:    \u001b[36menabled\u001b[0m"}
+{"level":"info","time":"2024-10-20T15:14:10.619+0530","caller":"models/HypertestYamlConfig.go:688","msg":"Cache Directories:"}
+{"level":"info","time":"2024-10-20T15:14:10.619+0530","caller":"models/HypertestYamlConfig.go:690","msg":"    \u001b[36mnode_modules\u001b[0m"}
+{"level":"info","time":"2024-10-20T15:14:10.620+0530","caller":"models/HypertestYamlConfig.go:736","msg":""}
+{"level":"debug","time":"2024-10-20T15:14:10.620+0530","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-10-20T15:14:10.620+0530","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2024-10-20T15:14:11.788+0530","caller":"core/lifecycle.go:463","msg":"Job ID: a703ecb1-9c52-4504-bac3-995589590243"}
+{"level":"debug","time":"2024-10-20T15:14:11.788+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2024-10-20T15:14:11.789+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2024-10-20T15:14:11.790+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2024-10-20T15:14:11.791+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: /Users/ritamg/Downloads/guru_condenast"}
+{"level":"debug","time":"2024-10-20T15:14:12.209+0530","caller":"core/lifecycle.go:598","msg":"Zip file size: 4.91 MB"}
+{"level":"debug","time":"2024-10-20T15:14:12.210+0530","caller":"core/lifecycle.go:608","msg":"Archive location: /Users/ritamg/Downloads/guru_condenast/hyperexecute-code-a703ecb1-9c52-4504-bac3-995589590243.zip\n"}
+{"level":"debug","time":"2024-10-20T15:14:12.210+0530","caller":"storage/azure.go:59","msg":"Payload size: 4.91 MB, source path /Users/ritamg/Downloads/guru_condenast/hyperexecute-code-a703ecb1-9c52-4504-bac3-995589590243.zip"}
+{"level":"debug","time":"2024-10-20T15:14:12.210+0530","caller":"utils/azcopy.go:143","msg":"Downloading dependency binary ..................."}
+{"level":"debug","time":"2024-10-20T15:14:13.123+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2024-10-20T15:14:13.624+0530","caller":"utils/azcopy.go:100","msg":"Downloading dependency to upload files"}
+{"level":"info","time":"2024-10-20T15:14:20.152+0530","caller":"utils/azcopy.go:118","msg":"\u001b[91m\u001b[32m✔\u001b[0m Dependency binary downloaded successfully\u001b[0m"}
+{"level":"debug","time":"2024-10-20T15:14:20.152+0530","caller":"utils/azcopy.go:190","msg":"returning from fallback"}
+{"level":"info","time":"2024-10-20T15:14:26.296+0530","caller":"storage/azure.go:114","msg":"File upload completed in 14.086061776s"}
+{"level":"debug","time":"2024-10-20T15:14:26.297+0530","caller":"receptionmanager/setup.go:251","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-10-20T15:14:26.298+0530","caller":"receptionmanager/setup.go:290","msg":"only one partialreports entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2024-10-20T15:14:26.299+0530","caller":"receptionmanager/setup.go:168","msg":"Uploading yaml : /Users/ritamg/Downloads/guru_condenast/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-10-20T15:14:26.299+0530","caller":"storage/azure.go:59","msg":"Payload size: 4.80 kB, source path /Users/ritamg/Downloads/guru_condenast/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2024-10-20T15:14:29.663+0530","caller":"storage/azure.go:114","msg":"File upload completed in 3.364517324s"}
+{"level":"debug","time":"2024-10-20T15:14:29.664+0530","caller":"core/lifecycle.go:635","msg":"Successfully deleted code archive: /Users/ritamg/Downloads/guru_condenast/hyperexecute-code-a703ecb1-9c52-4504-bac3-995589590243.zip\n"}
+{"level":"debug","time":"2024-10-20T15:14:29.666+0530","caller":"storage/azure.go:59","msg":"Payload size: 1.45 kB, source path mask-a703ecb1-9c52-4504-bac3-995589590243.yaml"}
+{"level":"info","time":"2024-10-20T15:14:33.114+0530","caller":"storage/azure.go:114","msg":"File upload completed in 3.44876093s"}
+{"level":"debug","time":"2024-10-20T15:14:34.111+0530","caller":"core/lifecycle.go:739","msg":"Job progress won't be tracked as no-track flag is set true"}
+{"level":"debug","time":"2024-10-20T15:14:34.112+0530","caller":"core/lifecycle.go:812","msg":"Context canceled"}
+{"level":"info","time":"2024-10-20T15:14:34.112+0530","caller":"core/lifecycle.go:815","msg":"\u001b[2mStopping pipeline gracefully\u001b[22m"}
+{"level":"info","time":"2024-10-20T15:14:34.112+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=a703ecb1-9c52-4504-bac3-995589590243\u001b[0m\u001b[24m\n"}
+{"level":"debug","time":"2024-10-20T15:14:34.112+0530","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-10-20T15:14:34.112+0530","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-10-20T15:15:04.113+0530","caller":"cmd/bin.go:306","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2024-10-20T15:16:54.645+0530","caller":"cmd/bin.go:120","msg":"cli os: darwin, cli arch: amd64"}
+{"level":"debug","time":"2024-10-20T15:16:55.448+0530","caller":"cmd/bin.go:129","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.224} "}
+{"level":"debug","time":"2024-10-20T15:16:57.007+0530","caller":"core/lifecycle.go:104","msg":"Setting environment"}
+{"level":"debug","time":"2024-10-20T15:16:57.007+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2024-10-20T15:16:57.007+0530","caller":"yamlconfigmanager/setup.go:593","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperExe.yml"}
+{"level":"debug","time":"2024-10-20T15:16:57.008+0530","caller":"yamlconfigmanager/setup.go:108","msg":"using hyperexecute config from : hyperExe.yml"}
+{"level":"debug","time":"2024-10-20T15:16:57.010+0530","caller":"yamlconfigmanager/setup.go:2067","msg":"Environment variable not set against the variable- matrix.os mentioned in yaml"}
+{"level":"debug","time":"2024-10-20T15:16:57.386+0530","caller":"yamlconfigmanager/setup.go:2277","msg":"Autodetecting test type in files of path : /Users/ritamg/Downloads/guru_condenast"}
+{"level":"debug","time":"2024-10-20T15:16:57.386+0530","caller":"yamlconfigmanager/setup.go:445","msg":"Tunnel: false"}
+{"level":"info","time":"2024-10-20T15:16:57.386+0530","caller":"models/HypertestYamlConfig.go:723","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2024-10-20T15:16:57.386+0530","caller":"models/HypertestYamlConfig.go:522","msg":"Mode:    \u001b[36mhybrid\u001b[0m"}
+{"level":"info","time":"2024-10-20T15:16:57.386+0530","caller":"models/HypertestYamlConfig.go:576","msg":"Parallelism:    \u001b[36m Mac - 10  Default - 10\u001b[0m"}
+{"level":"info","time":"2024-10-20T15:16:57.386+0530","caller":"models/HypertestYamlConfig.go:584","msg":"Runson:    \u001b[36m${matrix.os}\u001b[0m"}
+{"level":"info","time":"2024-10-20T15:16:57.387+0530","caller":"models/HypertestYamlConfig.go:592","msg":"Concurrency:    \u001b[36m1\u001b[0m"}
+{"level":"info","time":"2024-10-20T15:16:57.387+0530","caller":"models/HypertestYamlConfig.go:656","msg":"Report:    \u001b[36menabled\u001b[0m"}
+{"level":"info","time":"2024-10-20T15:16:57.387+0530","caller":"models/HypertestYamlConfig.go:688","msg":"Cache Directories:"}
+{"level":"info","time":"2024-10-20T15:16:57.387+0530","caller":"models/HypertestYamlConfig.go:690","msg":"    \u001b[36mnode_modules\u001b[0m"}
+{"level":"info","time":"2024-10-20T15:16:57.387+0530","caller":"models/HypertestYamlConfig.go:736","msg":""}
+{"level":"debug","time":"2024-10-20T15:16:57.387+0530","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-10-20T15:16:57.387+0530","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2024-10-20T15:16:57.947+0530","caller":"core/lifecycle.go:463","msg":"Job ID: 9e256bf7-75e7-4e88-9b37-be6daa6407a8"}
+{"level":"debug","time":"2024-10-20T15:16:57.948+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2024-10-20T15:16:57.950+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2024-10-20T15:16:57.956+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2024-10-20T15:16:57.956+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: /Users/ritamg/Downloads/guru_condenast"}
+{"level":"debug","time":"2024-10-20T15:16:58.332+0530","caller":"core/lifecycle.go:598","msg":"Zip file size: 4.91 MB"}
+{"level":"debug","time":"2024-10-20T15:16:58.332+0530","caller":"core/lifecycle.go:608","msg":"Archive location: /Users/ritamg/Downloads/guru_condenast/hyperexecute-code-9e256bf7-75e7-4e88-9b37-be6daa6407a8.zip\n"}
+{"level":"debug","time":"2024-10-20T15:16:58.332+0530","caller":"storage/azure.go:59","msg":"Payload size: 4.91 MB, source path /Users/ritamg/Downloads/guru_condenast/hyperexecute-code-9e256bf7-75e7-4e88-9b37-be6daa6407a8.zip"}
+{"level":"debug","time":"2024-10-20T15:16:59.411+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2024-10-20T15:17:06.443+0530","caller":"storage/azure.go:114","msg":"File upload completed in 8.111462243s"}
+{"level":"debug","time":"2024-10-20T15:17:06.444+0530","caller":"receptionmanager/setup.go:251","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-10-20T15:17:06.445+0530","caller":"receptionmanager/setup.go:290","msg":"only one partialreports entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2024-10-20T15:17:06.446+0530","caller":"receptionmanager/setup.go:168","msg":"Uploading yaml : /Users/ritamg/Downloads/guru_condenast/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-10-20T15:17:06.446+0530","caller":"storage/azure.go:59","msg":"Payload size: 4.01 kB, source path /Users/ritamg/Downloads/guru_condenast/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2024-10-20T15:17:09.959+0530","caller":"storage/azure.go:114","msg":"File upload completed in 3.512937309s"}
+{"level":"debug","time":"2024-10-20T15:17:10.009+0530","caller":"core/lifecycle.go:635","msg":"Successfully deleted code archive: /Users/ritamg/Downloads/guru_condenast/hyperexecute-code-9e256bf7-75e7-4e88-9b37-be6daa6407a8.zip\n"}
+{"level":"debug","time":"2024-10-20T15:17:10.059+0530","caller":"storage/azure.go:59","msg":"Payload size: 1.06 kB, source path mask-9e256bf7-75e7-4e88-9b37-be6daa6407a8.yaml"}
+{"level":"info","time":"2024-10-20T15:17:13.745+0530","caller":"storage/azure.go:114","msg":"File upload completed in 3.685415702s"}
+{"level":"debug","time":"2024-10-20T15:17:15.486+0530","caller":"core/lifecycle.go:739","msg":"Job progress won't be tracked as no-track flag is set true"}
+{"level":"debug","time":"2024-10-20T15:17:15.487+0530","caller":"core/lifecycle.go:812","msg":"Context canceled"}
+{"level":"info","time":"2024-10-20T15:17:15.487+0530","caller":"core/lifecycle.go:815","msg":"\u001b[2mStopping pipeline gracefully\u001b[22m"}
+{"level":"info","time":"2024-10-20T15:17:15.487+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=9e256bf7-75e7-4e88-9b37-be6daa6407a8\u001b[0m\u001b[24m\n"}
+{"level":"debug","time":"2024-10-20T15:17:15.487+0530","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-10-20T15:17:15.487+0530","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-10-20T15:17:45.489+0530","caller":"cmd/bin.go:306","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2024-10-20T15:20:21.303+0530","caller":"cmd/bin.go:120","msg":"cli os: darwin, cli arch: amd64"}
+{"level":"debug","time":"2024-10-20T15:20:22.140+0530","caller":"cmd/bin.go:129","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.224} "}
+{"level":"debug","time":"2024-10-20T15:20:25.693+0530","caller":"core/lifecycle.go:104","msg":"Setting environment"}
+{"level":"debug","time":"2024-10-20T15:20:25.693+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2024-10-20T15:20:25.693+0530","caller":"yamlconfigmanager/setup.go:593","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperExe.yml"}
+{"level":"debug","time":"2024-10-20T15:20:25.693+0530","caller":"yamlconfigmanager/setup.go:108","msg":"using hyperexecute config from : hyperExe.yml"}
+{"level":"debug","time":"2024-10-20T15:20:25.696+0530","caller":"yamlconfigmanager/setup.go:2067","msg":"Environment variable not set against the variable- matrix.os mentioned in yaml"}
+{"level":"debug","time":"2024-10-20T15:20:26.539+0530","caller":"yamlconfigmanager/setup.go:2277","msg":"Autodetecting test type in files of path : /Users/ritamg/Downloads/guru_condenast"}
+{"level":"debug","time":"2024-10-20T15:20:26.542+0530","caller":"yamlconfigmanager/setup.go:445","msg":"Tunnel: false"}
+{"level":"info","time":"2024-10-20T15:20:26.542+0530","caller":"models/HypertestYamlConfig.go:723","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2024-10-20T15:20:26.542+0530","caller":"models/HypertestYamlConfig.go:522","msg":"Mode:    \u001b[36mhybrid\u001b[0m"}
+{"level":"info","time":"2024-10-20T15:20:26.542+0530","caller":"models/HypertestYamlConfig.go:576","msg":"Parallelism:    \u001b[36m Mac - 1  Default - 1\u001b[0m"}
+{"level":"info","time":"2024-10-20T15:20:26.543+0530","caller":"models/HypertestYamlConfig.go:584","msg":"Runson:    \u001b[36m${matrix.os}\u001b[0m"}
+{"level":"info","time":"2024-10-20T15:20:26.543+0530","caller":"models/HypertestYamlConfig.go:592","msg":"Concurrency:    \u001b[36m1\u001b[0m"}
+{"level":"info","time":"2024-10-20T15:20:26.543+0530","caller":"models/HypertestYamlConfig.go:656","msg":"Report:    \u001b[36menabled\u001b[0m"}
+{"level":"info","time":"2024-10-20T15:20:26.543+0530","caller":"models/HypertestYamlConfig.go:688","msg":"Cache Directories:"}
+{"level":"info","time":"2024-10-20T15:20:26.543+0530","caller":"models/HypertestYamlConfig.go:690","msg":"    \u001b[36mnode_modules\u001b[0m"}
+{"level":"info","time":"2024-10-20T15:20:26.543+0530","caller":"models/HypertestYamlConfig.go:736","msg":""}
+{"level":"debug","time":"2024-10-20T15:20:26.543+0530","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-10-20T15:20:26.543+0530","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2024-10-20T15:20:27.016+0530","caller":"core/lifecycle.go:463","msg":"Job ID: cdd4d0bb-613f-4b68-bf69-0e638d8fa9c2"}
+{"level":"debug","time":"2024-10-20T15:20:27.017+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2024-10-20T15:20:27.018+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2024-10-20T15:20:27.020+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2024-10-20T15:20:27.020+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: /Users/ritamg/Downloads/guru_condenast"}
+{"level":"debug","time":"2024-10-20T15:20:27.755+0530","caller":"core/lifecycle.go:598","msg":"Zip file size: 4.91 MB"}
+{"level":"debug","time":"2024-10-20T15:20:27.755+0530","caller":"core/lifecycle.go:608","msg":"Archive location: /Users/ritamg/Downloads/guru_condenast/hyperexecute-code-cdd4d0bb-613f-4b68-bf69-0e638d8fa9c2.zip\n"}
+{"level":"debug","time":"2024-10-20T15:20:27.755+0530","caller":"storage/azure.go:59","msg":"Payload size: 4.91 MB, source path /Users/ritamg/Downloads/guru_condenast/hyperexecute-code-cdd4d0bb-613f-4b68-bf69-0e638d8fa9c2.zip"}
+{"level":"debug","time":"2024-10-20T15:20:28.471+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2024-10-20T15:20:33.739+0530","caller":"storage/azure.go:114","msg":"File upload completed in 5.984331705s"}
+{"level":"debug","time":"2024-10-20T15:20:33.740+0530","caller":"receptionmanager/setup.go:251","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-10-20T15:20:33.741+0530","caller":"receptionmanager/setup.go:290","msg":"only one partialreports entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2024-10-20T15:20:33.742+0530","caller":"receptionmanager/setup.go:168","msg":"Uploading yaml : /Users/ritamg/Downloads/guru_condenast/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-10-20T15:20:33.743+0530","caller":"storage/azure.go:59","msg":"Payload size: 4.01 kB, source path /Users/ritamg/Downloads/guru_condenast/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2024-10-20T15:20:37.241+0530","caller":"storage/azure.go:114","msg":"File upload completed in 3.498459106s"}
+{"level":"debug","time":"2024-10-20T15:20:37.242+0530","caller":"core/lifecycle.go:635","msg":"Successfully deleted code archive: /Users/ritamg/Downloads/guru_condenast/hyperexecute-code-cdd4d0bb-613f-4b68-bf69-0e638d8fa9c2.zip\n"}
+{"level":"debug","time":"2024-10-20T15:20:37.243+0530","caller":"storage/azure.go:59","msg":"Payload size: 1.06 kB, source path mask-cdd4d0bb-613f-4b68-bf69-0e638d8fa9c2.yaml"}
+{"level":"info","time":"2024-10-20T15:20:40.787+0530","caller":"storage/azure.go:114","msg":"File upload completed in 3.544088056s"}
+{"level":"debug","time":"2024-10-20T15:20:41.623+0530","caller":"core/lifecycle.go:739","msg":"Job progress won't be tracked as no-track flag is set true"}
+{"level":"debug","time":"2024-10-20T15:20:41.624+0530","caller":"core/lifecycle.go:812","msg":"Context canceled"}
+{"level":"info","time":"2024-10-20T15:20:41.624+0530","caller":"core/lifecycle.go:815","msg":"\u001b[2mStopping pipeline gracefully\u001b[22m"}
+{"level":"info","time":"2024-10-20T15:20:41.624+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=cdd4d0bb-613f-4b68-bf69-0e638d8fa9c2\u001b[0m\u001b[24m\n"}
+{"level":"debug","time":"2024-10-20T15:20:41.625+0530","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-10-20T15:20:41.625+0530","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-10-20T15:21:11.600+0530","caller":"cmd/bin.go:306","msg":"main: all goroutines have finished."}

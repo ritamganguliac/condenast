@@ -1,0 +1,13 @@
+{
+    "article_UPC_Picture": "[class *='UnifiedProductCardImageWrapper']  > a > span > picture",
+    "plp_upc_anchor": "*[class^='UnifiedProductCardHeader'] > div > a",
+    "plp_upc_picture": "*[class^='UnifiedProductCardHeader'] > div > a > span > picture",
+    "plp_upc_retailerName": "[class*='UnifiedProductCardRetailerName'] > a",
+    "plp_upc_retailerSpan": "span.upcRetailerName",
+    "plp_upc_self_href": "[href^=",
+    "gallery_UPC_anchor":"*[class^='UnifiedProductCardImageWrapper'] > a",
+    "gallery_UPC_image":"*[class^='UnifiedProductCardImageWrapper'] > a > span > picture > img",
+    "gallery_UPC_picture":"*[class^='UnifiedProductCardImageWrapper'] > a > span > picture",
+    "article_UPC_gq_germany_url":"amzn",
+    "article_Product_selections":"#upc_"
+}

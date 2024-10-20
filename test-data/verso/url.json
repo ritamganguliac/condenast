@@ -1,0 +1,1359 @@
+{
+    "urlParameters": "?hotzones_test=disable&bounce-exchange=false",
+    "configPath": "/config/default?format=json&verso=true",
+    "configHomePath": "/config/homepage?format=json&verso=true",
+    "graphqlURlCi": "https://graphql.condenast.io/graphql",
+    "graphqlURlCiStaging": "https://stg-graphql.condenast.io/graphql",
+    "graphqlURl": "https://content-service.gp-prod.conde.digital/graphql",
+    "layoutConfigUrl": "https://layout-service.condenast.io/graphql",
+    "layoutConfigUrlStaging": "https://layout-service-stg.condenast.io/graphql",
+    "tnyGraphQLConfigUrl": "https://graphql.newyorker.com/graphql",
+    "tnyGraphQLConfigUrlStaging": "https://graphql.newyorker.com/graphql",
+    "staging": {
+        "ad-france": {
+            "orgId": "4gKgcErAkkSHxcAFYh1GjXEpxc6q",
+            "homePageUrl": "https://stag.admagazine.fr",
+            "channel": [
+                "/adinspiration"
+            ],
+            "configUrl": "http://verso-stag.conde.io/config/architectural-digest-france/default?format=json",
+            "trendingStories": "https://stg-api.condenast.io/v1/recommendations?applicationID=architectural-digest-fr-verso-hp-trending&brand=architectural-digest-france&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=fr-FR&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fstag.admagazine.fr%2F&filter%5BcontentType%5D=ARTICLE&filter%5BcontentType%5D=GALLERY"
+        },
+        "ad-india": {
+            "apiUrl": "https://stg-adin-api.aws.conde.io/",
+            "orgId": "4gKgcF4JwpC4ubH5HtHrW6Aza2JF",
+            "homePageUrl": "https://stag.architecturaldigest.in",
+            "channel": [
+                "/decorating/"
+            ],
+            "configUrl": "https://verso-stag.conde.io/config/architectural-digest-india-staging/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=ad-in-verso-hp-trending&brand=ad-in&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fstag.architecturaldigest.in%2F&filter%5BcontentType%5D=ARTICLE"
+        },
+        "ad-italy": {
+            "orgId": "4gKgcEtfZj53EFNXMwrbF5KCW1RL",
+            "homePageUrl": "https://stag.ad-italia.it",
+            "configUrl": "https://verso-stag.conde.io/config/architectural-digest-italia-staging/default?format=json",
+            "channel": [
+                "/news/"
+            ],
+            "trendingStories": "https://stg-api.condenast.io/v1/recommendations?applicationID=ad-it-verso-hp-trending&brand=ad-it&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=it-IT&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.ad-italia.it%2F&filter%5BcontentType%5D=ARTICLE"
+        },
+        "Allure": {
+            "apiUrl": "https://stg-all-api.aws.conde.io/",
+            "orgId": "4gKgcEpw2w2TyiyPvsZYqcEh8EVy",
+            "homePageUrl": "https://stag.allure.com",
+            "configUrl": "https://verso-stag.conde.io/config/allure/default?format=json",
+            "trendingStories": "https://stg-api.condenast.io/v1/recommendations?applicationID=allure-verso-hp-trending&brand=allure&filter%5BnumberOfDays%5D=-30&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fstag.allure.com&filter%5BcontentType%5D=ARTICLE"
+        },
+        "Architectural Digest": {
+            "orgId": "4gKgcErAkkSHxcAFYh1GjXEpxc6q",
+            "homePageUrl": "https://stag.architecturaldigest.com",
+            "directoryUrl": [
+                "/adpro/directory"
+            ],
+            "profile": [
+                "/adpro/directory/profile/test-business-profile"
+            ],
+            "search": [
+                "/adpro/directory/businesses"
+            ],
+            "newsletters": [
+                "/newsletter"
+            ],
+            "channel": [
+                "/clever",
+                "/culture-lifestyle"
+            ],
+            "formPage": [
+                "/adpro/directory/apply"
+            ],
+            "gallery": [
+                "/gallery/most-beautiful-libraries-in-the-world"
+            ],
+            "article": [
+                "/story/bobby-berk-bedroom-mantras"
+            ],
+            "galleryMostPopularContent": "https://stg-api.condenast.io/v1/recommendations?applicationID=architectural-digest-right-rail&brand=architectural-digest&url=https://stag.architecturaldigest.com/gallery/most-beautiful-libraries-in-the-world&filter%5Bstrategy%5D=POPULAR&filter%5Blanguage%5D=en-US&page%5Bsize%5D=3",
+            "galleryRecircContent": "https://stg-api.condenast.io/v1/recommendations?applicationID=architectural-digest-gallery-bottom-recirc&brand=architectural-digest&url=https://stag.architecturaldigest.com/gallery/most-beautiful-libraries-in-the-world&filter%5Bstrategy%5D=POPULAR&filter%5BcontentType%5D=CNEVIDEO&filter%5Blanguage%5D=en-US&page%5Bsize%5D=4&forceStrategy={REPLACE_STRATEGY}",
+            "configUrl": "http://verso-stag.conde.io/config/architectural-digest/default?format=json",
+            "trendingStories": "https://stg-api.condenast.io/v1/recommendations?applicationID=architectural-digest-verso-hp-trending&brand=architectural-digest&filter%5BnumberOfDays%5D=-30&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fstag.architecturaldigest.com&filter%5BcontentType%5D=ARTICLE"
+        },
+        "bon-appetit": {
+            "orgId": "4gKgcF1Da3qJmD4TCHHS7sLmQWRJ",
+            "footerBrandName": "Bon Appétit",
+            "homePageUrl": "https://stag.bonappetit.com",
+            "configUrl": "https://verso-stag.conde.io/config/bon-appetit/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=bon-appetit-verso-hp-trending&brand=bon-appetit&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=en-US&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.stag.bonappetit.com%2F&filter%5BcontentType%5D=ARTICLE",
+            "channel": [
+                "/cooking",
+                "/shopping",
+                "/restaurants"
+            ],
+            "tag": [
+                "/simple-cooking/quick",
+                "/ingredient/wine",
+                "/dish/fried-rice",
+                "/cooking-method/braise",
+                "/diet/vegetarian",
+                "/simple-cooking/weeknight-meals",
+                "/ingredient/vegetable/leafy-greens/mustard-greens",
+                "/ingredient/meat/beef/brisket",
+                "/ingredient/other-ingredients/buttermilk",
+                "/ingredient/egg"
+            ],
+            "tagUrl": [
+                "/simple-cooking/quick",
+                "/ingredient/wine",
+                "/dish/fried-rice",
+                "/cooking-method/braise",
+                "/diet/vegetarian",
+                "/simple-cooking/weeknight-meals",
+                "/ingredient/mustard-greens",
+                "/ingredient/brisket",
+                "/ingredient/buttermilk",
+                "/ingredient/egg"
+            ],
+            "newsletters": [
+                "/newsletter"
+            ],
+            "gallery": [
+                "/gallery/passover-dessert-recipes",
+                "/gallery/dinner-ideas-for-two",
+                "/gallery/vegan-dinner-recipes-that-we-just-love"
+            ],
+            "galleryRecircContent": "https://recs-api.conde.digital/v4?applicationID=bon-appetit-gallery-bottom-recirc&brand=bon-appetit&url=https://www.stag.bonappetit.com/{REPLACE_URI}&filter%5BnumberOfDays%5D=-30&filter%5BcontentType%5D=GALLERY&filter%5BcontentType%5D=CNEVIDEO&page%5Bsize%5D=4&forceStrategy={REPLACE_STRATEGY}",
+            "article": [
+                "/story/why-costco-rotisserie-chicken-taste-soapy",
+                "/story/best-coffee-makers",
+                "/story/food-diary-san-francisco-california-225k-year-salary"
+            ],
+            "articleRecircContent": "https://recs-api.conde.digital/v4?applicationID=bon-appetit-article-bottom-recirc&brand=bon-appetit&url=https://www.stag.bonappetit.com/{REPLACE_URI}&filter%5BnumberOfDays%5D=-30&filter%5BcontentType%5D=ARTICLE&filter%5BcontentType%5D=CNEVIDEO&page%5Bsize%5D=4&forceStrategy={REPLACE_STRATEGY}",
+            "recipeRecircContent": "https://recs-api.conde.digital/v4?applicationID=bon-appetit-recipe-bottom-recirc&brand=bon-appetit&url=https://www.stag.bonappetit.com/{REPLACE_URI}&filter%5BnumberOfDays%5D=-730&filter%5BcontentType%5D=RECIPE&page%5Bsize%5D=8&forceStrategy={REPLACE_STRATEGY}"
+        },
+        "Conde Nast Traveler": {
+            "apiUrl": "http://stg-cnt-api.aws.conde.io/",
+            "orgId": "4gKgcF2VDpQsSN1T2TF97S5MPMun",
+            "footerBrandName": "Condé Nast Traveler",
+            "homePageUrl": "https://stag.cntraveler.com",
+            "configUrl": "http://verso-stag.conde.io/config/conde-nast-traveler/default?format=json",
+            "trendingStories": "https://stg-api.condenast.io/v1/recommendations?applicationID=conde-nast-traveler-verso-hp-trending&brand=conde-nast-traveler&filter%5BnumberOfDays%5D=-30&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fstag.cntraveler.com&filter%5BcontentType%5D=ARTICLE",
+            "article": [
+                "/story/travel-resolutions-2024"
+            ],
+            "search": [
+                "/search"
+            ],
+            "ampUrls": [
+                "https://stag.cntraveler.com/story/diptyques-coveted-city-candles-are-online-for-one-week-only/amp"
+            ]
+        },
+        "conde-nast-traveller-india": {
+            "orgId": "4gKgcFHtvmW66KTXncKi2HTEzQPA",
+            "footerBrandName": "Condé Nast Traveller India",
+            "channel": [
+                "/destinations"
+            ],
+            "homePageUrl": "https://stag.cntraveller.in",
+            "configUrl": "https://verso-stag.conde.io/config/conde-nast-traveler-india/default?format=json",
+            "trendingStories": "https://stg-api.condenast.io/v1/recommendations?applicationID=conde-nast-traveller-in-verso-hp-trending&brand=conde-nast-traveller-india&filter%5BnumberOfDays%5D=-30&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fstag.cntraveller.in&filter%5BcontentType%5D=ARTICLE"
+        },
+        "conde-nast-traveller-uk": {
+            "orgId": "4gKgcEp7rmxiHSepVbD7864PH7xY",
+            "footerBrandName": "Condé Nast Traveller UK",
+            "channel": [
+                "/topic/inspiration/",
+                "/topic/destinations",
+                "/topic/places-to-stay/",
+                "/topic/style-culture/",
+                "/topic/eating-drinking/"
+            ],
+            "homePageUrl": "https://stag.cntraveller.com",
+            "configUrl": "https://verso-stag.conde.io/config/conde-nast-traveler-uk/default?format=json",
+            "trendingStories": "https://stg-api.condenast.io/v1/recommendations?applicationID=conde-nast-traveler-uk-verso-hp-trending&brand=conde-nast-traveller-uk&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=en-GB&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fstag.cntraveller.com%2F&filter%5BcontentType%5D=ARTICLE"
+        },
+        "epicurious": {
+            "orgId": "4gKgcEpkmX3HUEW89Yon2Kf7ctD9",
+            "homePageUrl": "https://stag.epicurious.com",
+            "configUrl": "https://verso-stag.conde.io/config/epicurious/default?format=json",
+            "recipe": [
+                "/recipes/food/views/cold-oven-pound-cake",
+                "/recipes/food/views/julias-american-style-potato-salad-358335",
+                "/recipes/food/views/my-favorite-simple-roast-chicken-231348"
+            ],
+            "channel": [
+                "/recipes-menus",
+                "/expert-advice",
+                "/shopping",
+                "/ingredients",
+                "/holidays-events"
+            ],
+            "recipeRecircContent": "https://recs-api.conde.digital/v4?applicationID=epicurious-recipe-bottom-recirc&brand=epicurious&url=https://stag.epicurious.com/{REPLACE_URI}&filter%5BnumberOfDays%5D=-300&filter%5BcontentType%5D=RECIPE&page%5Bsize%5D=8&forceStrategy={REPLACE_STRATEGY}",
+            "gallery": [
+                "/recipes-menus/june-recipes-gallery",
+                "/holidays-events/christmas-potluck-ideas",
+                "/recipes-menus/best-vegetarian-dinner-recipes"
+            ],
+            "newsletters": [
+                "/newsletter"
+            ],
+            "galleryRecircContent": "https://recs-api.conde.digital/v4?applicationID=epicurious-gallery-bottom-recirc&brand=epicurious&url=https://stag.epicurious.com/{REPLACE_URI}&filter%5BnumberOfDays%5D=-30&filter%5BcontentType%5D=GALLERY&filter%5BcontentType%5D=CNEVIDEO&page%5Bsize%5D=8&forceStrategy={REPLACE_STRATEGY}",
+            "article": [
+                "/recipes-menus/thanksgiving-needs-texas-potatoes",
+                "/ingredients/what-are-bitters",
+                "/expert-advice/how-to-brine-a-turkey-for-thanksgiving-step-by-step-article"
+            ],
+            "articleRecircContent": "https://recs-api.conde.digital/v4?applicationID=epicurious-article-bottom-recirc&brand=epicurious&url=https://stag.epicurious.com/{REPLACE_URI}&filter%5BnumberOfDays%5D=-30&filter%5BcontentType%5D=ARTICLE&filter%5BcontentType%5D=CNEVIDEO&page%5Bsize%5D=8&forceStrategy={REPLACE_STRATEGY}"
+        },
+        "glamour": {
+            "apiUrl": "http://stg-glm-api.aws.conde.io/",
+            "orgId": "4gKgcF5Myw5MXdcFAvDQL5L1iAGH",
+            "homePageUrl": "https://stag.glamour.com",
+            "configUrl": "http://verso-stag.conde.io/config/glamour/default?format=json",
+            "article": [
+                "/story/dua-lipa-black-leather-dress"
+            ],
+            "search": [
+                "/search"
+            ],
+            "trendingStories": "https://stg-api.condenast.io/v1/recommendations?applicationID=gq-verso-hp-trending&brand=glamour&filter%5BnumberOfDays%5D=-30&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fstag.glamour.com&filter%5BcontentType%5D=ARTICLE"
+        },
+        "glamour-uk": {
+            "orgId": "4gKgcEwoyWkkq2CNsSJU7y1Zp6BM",
+            "homePageUrl": "https://stag.glamourmagazine.co.uk",
+            "configUrl": "https://verso-stag.conde.io/config/glamour-uk/default?format=json",
+            "trendingStories": "https://stg-api.condenast.io/v1/recommendations?applicationID=glamour-uk-verso-hp-trending&brand=glamour-uk&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=en-GB&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fstag.glamourmagazine.co.uk%2F&filter%5BcontentType%5D=ARTICLE"
+        },
+        "gq-germany": {
+            "orgId": "4gKgcErnGhg5NoWog3QFzvnfgoSK",
+            "homePageUrl": "https://stag.gq-magazin.de",
+            "configUrl": "https://verso-stag.conde.io/config/gq-germany/default?format=json",
+            "channel": [
+                "/mode/",
+                "/body-care/",
+                "/mobilitaet/",
+                "/technik/",
+                "/lifestyle/",
+                "/entertainment/"
+            ],
+            "trendingStories": "https://stg-api.condenast.io/v1/recommendations?applicationID=gq-de-verso-hp-trending&brand=gq-de&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=de-DE&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.gq-magazin.de&filter%5BcontentType%5D=ARTICLE&filter%5BcontentType%5D=GALLERY"
+        },
+        "gq-india": {
+            "apiUrl": "https://stg-gqin-api.aws.conde.io/",
+            "orgId": "4gKgcEvKUjR4aR5M4U6aoBnhhc88",
+            "homePageUrl": "https://stag.gqindia.com",
+            "configUrl": "https://verso-stag.conde.io/config/gq-india-staging/default?format=json",
+            "trendingStories": "https://stg-api.condenast.io/v1/recommendations?applicationID=gq-in-verso-hp-trending&brand=gq-in&filter%5BnumberOfDays%5D=-30&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fstag.gqindia.com%2F&filter%5BcontentType%5D=ARTICLE"
+        },
+        "gq-italy": {
+            "orgId": "4gKgcFGEHe8i58HWAzA85auwxgxU",
+            "homePageUrl": "https://stag.gqitalia.it",
+            "configUrl": "http://verso-stag.conde.io/config/gq-italia/default?format=json",
+            "channel": [
+                "/lifestyle/",
+                "/moda/",
+                "/news/",
+                "/sport/",
+                "/tech/",
+                "/motori/",
+                "/show/",
+                "/video/"
+            ],
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=gq-it-verso-hp-trending&brand=gq-italia&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=it-IT&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fstag.gqitalia.it&filter%5BcontentType%5D=ARTICLE&filter%5BcontentType%5D=GALLERY"
+        },
+        "gq-japan": {
+            "orgId": "4gKgcFCqNzExRurzgu8Bpo2oe8Fy",
+            "homePageUrl": "https://stag.gqjapan.jp",
+            "configUrl": "https://verso-stag.conde.io/config/gq-japan/default?format=json",
+            "channel": [
+                "/fashion/",
+                "/cars/",
+                "/watches/",
+                "/lifestyle/",
+                "/culture/"
+            ],
+            "trendingStories": "https://stg-api.condenast.io/v1/recommendations?applicationID=gq-jp-verso-hp-trending&brand=gq-jp&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=ja-JP&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fstag.gqjapan.jp&filter%5BcontentType%5D=ARTICLE"
+        },
+        "gq-mexico": {
+            "orgId": "4gKgcEqvgTarXyYuri2kzExtkbmG",
+            "homePageUrl": "https://stag.gq.com.mx",
+            "configUrl": "https://verso-stag.conde.io/config/gq-mexico-y-latinoamerica-staging/default?format=json",
+            "channel": [
+                "/moda/",
+                "/estilo-de-vido/",
+                "/entretenimiento/",
+                "/cuidado-personal/",
+                "/relojes/",
+                "/videos/",
+                "/deportes/"
+            ],
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=gq-mx-verso-hp-trending&brand=gq-mx&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=es-MX&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fstag.gq.com.mx%2F&filter%5BcontentType%5D=ARTICLE&filter%5BcontentType%5D=GALLERY"
+        },
+        "gq-spain": {
+            "orgId": "4gKgcEowu5EjmoEc82id7yTMi1kq",
+            "homePageUrl": "https://stag-media.revistagq.com",
+            "configUrl": "http://verso-stag.conde.io/config/gq-espana/default?format=json",
+            "trendingStories": "https://stg-api.condenast.io/v1/recommendations?applicationID=gq-es-verso-hp-trending&brand=gq-espana&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=es-ES&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fstag-media.revistagq.com"
+        },
+        "gq-tw": {
+            "orgId": "4gKgcEtQKDzbdZ1FXrdqT2hU7cMG",
+            "homePageUrl": "https://stag.gq.com.tw",
+            "configUrl": "https://verso-stag.conde.io/config/gq-taiwan/default?format=json",
+            "trendingStories": "https://stg-api.condenast.io/v1/recommendations?applicationID=gq-tw-verso-hp-trending&brand=gq-tw&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=zh-Hant-TW&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fstag.gq.com.tw%2F&filter%5BcontentType%5D=ARTICLE&filter%5BcontentType%5D=GALLERY"
+        },
+        "gq-uk": {
+            "orgId": "4gKgcEp8SC9aGD99eJvpLo157JmC",
+            "homePageUrl": "https://stag.gq-magazine.co.uk",
+            "configUrl": "https://verso-stag.conde.io/config/gq-uk/default?format=json",
+            "trendingStories": "https://stg-api.condenast.io/v1/recommendations?applicationID=gq-uk-verso-hp-trending&brand=gq-uk&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=en-GB&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=4&url=https%3A%2F%2Fstag.gq-magazine.co.uk%2F&filter%5BcontentType%5D=ARTICLE"
+        },
+        "gq-us": {
+            "orgId": "4gKgcF8U4x4Jk2kxC7tfConpHpze",
+            "homePageUrl": "https://stag.gq.com",
+            "configUrl": "https://verso-stag.conde.io/config/gq/default?format=json",
+            "gallery": [
+                "/gallery/pharrell-williams-best-outfits-style"
+            ],
+            "search": [
+                "/search"
+            ],
+            "galleryRecircContent": "https://recs-api.conde.digital/v4?applicationID=gq-bottom-recirc&brand=gq&url=https://stag.gq.com/gallery/pharrell-williams-best-outfits-style&filter%5Bstrategy%5D=POPULAR&filter%5BcontentType%5D=CNEVIDEO&filter%5Blanguage%5D=en-US&page%5Bsize%5D=6&forceStrategy={REPLACE_STRATEGY}",
+            "trendingStories": "https://stg-api.condenast.io/v1/recommendations?applicationID=gq-verso-hp-trending&brand=gq&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=en-US&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.gq.com&filter%5BcontentType%5D=ARTICLE&filter%5BcontentType%5D=GALLERY"
+        },
+        "Self": {
+            "orgId": "4gKgcEtE7WyZGiVgkhwtebvAYvUj",
+            "homePageUrl": "https://stag.self.com",
+            "configUrl": "http://verso-stag.conde.io/config/self/default?format=json",
+            "trendingStories": "https://stg-api.condenast.io/v1/recommendations?applicationID=self-verso-hp-trending&brand=self&filter%5BnumberOfDays%5D=-30&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fstag.self.com&filter%5BcontentType%5D=ARTICLE"
+        },
+        "tatler": {
+            "orgId": "4gKgcFFsa4Qna3uB1XX72Nmn57xX",
+            "footerBrandName": "Tatler",
+            "channel": [
+                "/bystander",
+                "/topic/style",
+                "/topic/beauty",
+                "/topic/royals",
+                "/topic/features",
+                "/topic/travel"
+            ],
+            "homePageUrl": "https://stag.tatler.com",
+            "configUrl": "http://verso-stag.conde.io/config/tatler/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=tatler-verso-hp-trending&brand=tatler&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=en-GB&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=4&url=https%3A%2F%2Fstag.tatler.com%2F&filter%5BcontentType%5D=ARTICLE"
+        },
+        "Teen Vogue": {
+            "apiUrl": "http://stg-tnv-api.aws.conde.io/",
+            "orgId": "4gKgcF7fz4Q2yhyyA732m7jz5A1e",
+            "homePageUrl": "https://stag.teenvogue.com",
+            "configUrl": "http://verso-stag.conde.io/config/teen-vogue/default?format=json",
+            "newsletters": [
+                "/newsletter"
+            ],
+            "trendingStories": "https://stg-api.condenast.io/v1/recommendations?applicationID=teen-vogue-verso-hp-trending&brand=teen-vogue&filter%5BnumberOfDays%5D=-30&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fstag.teen-vogue.com&filter%5BcontentType%5D=ARTICLE"
+        },
+        "Them": {
+            "orgId": "4gKgcF1jP2RH6ACCMiyhhyUNntrz",
+            "homePageUrl": "https://stag.them.us",
+            "configUrl": "http://verso-stag.conde.io/config/them/default?format=json",
+            "newsletters": [
+                "/newsletter"
+            ]
+        },
+        "The New Yorker": {
+            "apiUrl": "https://stg-tny-api.aws.conde.io/",
+            "orgId": "4gKgcEy9SqS1hhu8DJ37D8GnRNuV",
+            "homePageUrl": "https://stg.newyorker.com",
+            "contributors": [
+                "/featured-contributors/jamaica-kincaid?verso=true"
+            ],
+            "article": [
+                "/magazine/the-making-of-a-magazine/copy-nov-21-2022-954-am-n-the-takeover"
+            ],
+            "cartoonCaption": [
+                "/cartoons/contest",
+                "/cartoons/contest#rate",
+                "/cartoons/contest#vote",
+                "/cartoons/contest#winner"
+            ],
+            "configUrl": "http://verso-stag.conde.io/config/the-new-yorker/default?format=json",
+            "trendingStories": "https://stg-api.condenast.io/v1/recommendations?applicationID=newyorker-verso-hp-trending&brand=newyorker&filter%5BnumberOfDays%5D=-30&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fstag.newyorker.com&filter%5BcontentType%5D=ARTICLE",
+            "shopCartoonUrl": "https://condenaststore.com/conde-nast-brand/cartoons"
+        },
+        "upc-vogue-us": {
+            "uri_Article": "article/automationdatapleasedontdelete",
+            "uri_Gallery": "shopping/automationdonotdeleteplease",
+            "uri_Plp": "automationdatapleasedontdelete",
+            "articleProdUrl": "https://stag.vogue.com/article/automationdatapleasedontdelete",
+            "firstRetailerArticle": "https://www.amazon.co.uk/Braiding-Stretched-Synthetic-Extensions-Inch%EF%BC%8C350/dp/B0BSFKPB9G/ref=sr_1_9",
+            "firstRetailerGallery": "https://www.sephora.co.uk/brands/shea-moisture",
+            "firstRetailerPlp": "https://www.selfridges.com/GB/en/cat/ruka-edgeslick-hair-tool_R04069143/#colour=COOL%20GREY",
+            "galleryProdUrl": "https://stag.vogue.com/shopping/automationdonotdeleteplease",
+            "plpProdUrl": "https://stag.vogue.com/automationdatapleasedontdelete"
+        },
+        "vanity-fair": {
+            "orgId": "4gKgcFFpH8t1WVp28BAw7diY9yVd",
+            "homePageUrl": "https://stag.vanityfair.com",
+            "configUrl": "https://verso-stag.conde.io/config/vanity-fair/default?format=json",
+            "article": [
+                "/style/2023/11/prince-harry-and-meghan-markle-veterans-day-and-remembrance-day"
+            ],
+            "trendingStories": "https://stg-api.condenast.io/v1/recommendations?applicationID=vanity-fair-verso-hp-trending&brand=vanity-fair&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=en-US&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.vanityfair.com%2F&filter%5BcontentType%5D=ARTICLE%22"
+        },
+        "vanity-fair-france": {
+            "orgId": "4gKgcEyoFmjHYq61nZXtN8g8nQ22",
+            "homePageUrl": "https://stag.vanityfair.fr",
+            "channel": [
+                "/culture"
+            ],
+            "configUrl": "https://verso-stag.conde.io/config/vanity-fair-france/default?format=json",
+            "trendingStories": "https://stg-api.condenast.io/v1/recommendations?applicationID=vanity-fair-fr-verso-hp-trending&brand=vanity-fair-fr&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=fr-FR%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fstag.vanityFair.fr&filter%5BcontentType%5D=ARTICLE"
+        },
+        "Vogue": {
+            "apiUrl": "http://stg-vogue-api.aws.conde.io/",
+            "orgId": "4gKgcFDZ4BCdYPTEfsB3cnCHZZPP",
+            "homePageUrl": "https://stag.vogue.com",
+            "polaroidUrl": "https://stag-polaroid.vogue.com",
+            "polaroidCopilot": "https://stg-copilot.condenast.io/vogue/fashiongalleries/65d5e71f54f34fa312bff9fd",
+            "unPublishedShow": "https://stag-polaroid.vogue.com/upload/65d6d2600ef5b1c011a38459",
+            "publishedShow": "https://stag-polaroid.vogue.com/upload/65d5e711cd8358cc08b34571",
+            "configUrl": "https://verso.gp-nonprod-na-0.conde.digital/config/vogue-staging/default?format=json",
+            "trendingStories": "https://stg-api.condenast.io/v1/recommendations?applicationID=vogue-verso-hp-trending&brand=vogue&filter%5BnumberOfDays%5D=-30&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fstag.vogue.com&filter%5BcontentType%5D=ARTICLE",
+            "slideShow": [
+                "/slideshow/met-gala-2022-red-carpet-live-celebrity-fashion",
+                "/slideshow/10-best-dressed-stars-jessica-chastain-danai-gurira-alexa-chung"
+            ],
+            "runwayShow": [
+                "/fashion-shows/spring-1997-ready-to-wear/yohji-yamamoto"
+            ],
+            "streetStyle": [
+                "/slideshow/our-best-street-style-from-paris-fall-2024-mens-shows"
+            ]
+        },
+        "vogue-business": {
+            "apiUrl": "https://stg-voguebz-api.aws.conde.io/",
+            "orgId": "4gKgcF292PzsL2SaviyopwfqBVED",
+            "homePageUrl": "https://www.voguebusinessstaging.com",
+            "configUrl": "https://verso.gp-nonprod-na-0.conde.digital/config/vogue-business/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=voguebusiness-verso-hp-trending&brand=vogue&filter%5BnumberOfDays%5D=-30&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fstag.voguebusiness.com&filter%5BcontentType%5D=ARTICLE"
+        },
+        "vogue-france": {
+            "orgId": "4gKgcFBMo6E3SZkX1FLLaEdoQuWW",
+            "homePageUrl": "https://stag.vogue.fr",
+            "configUrl": "https://verso-stag.conde.io/config/vogue-paris/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=vogue-paris-verso-hp-trending&brand=vogue-paris&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=fr-FR&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fstag.vogue.fr%2F&filter%5BcontentType%5D=ARTICLE&filter%5BcontentType%5D=GALLERY",
+            "slideShow": [
+                "/culture/galerie/leonardo-dicaprio-kate-winslet-amitie-en-images",
+                "/fashion/galerie/rosalia-fashion-style-looks"
+            ]
+        },
+        "vogue-germany": {
+            "orgId": "4gKgcEveFQjPJ1nnqw7Yw4VA4Nvb",
+            "homePageUrl": "https://stag.vogue.de",
+            "configUrl": "https://verso-stag.conde.io/config/vogue-germany/default?format=json",
+            "channel": [
+                "/mode",
+                "/lifestyle",
+                "/beauty",
+                "/kultur"
+            ],
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=vogue-de-verso-hp-trending&brand=vogue-de&filter%5BnumberOfDays%5D=-90&filter%5Blanguage%5D=de-DE&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=4&url=https%3A%2F%2Fstag.vogue.de%2F&filter%5BcontentType%5D=ARTICLE&filter%5BcontentType%5D=GALLERY",
+            "slideShow": [
+                "/mode/galerie/herzogin-kate-outfit-farbe-blau",
+                "/kultur/galerie/lv-dream-louis-vuitton-ausstellung-cafe-paris"
+            ]
+        },
+        "vogue-india": {
+            "orgId": "4gKgcEqwzmDR9uPkf8Wg3EJqykD3",
+            "homePageUrl": "https://stag.vogue.in",
+            "configUrl": "https://verso-stag.conde.io/config/vogue-india/default?format=json",
+            "trendingStories": "https://stg-api.condenast.io/v1/recommendations?applicationID=vogue-in-verso-hp-trending&brand=vogue-in&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=en-IN&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fstag.vogue.in%2F&filter%5BcontentType%5D=ARTICLE",
+            "slideShow": [
+                "/fashion/gallery/from-zendaya-to-jenna-ortega-these-were-the-best-dressed-stars-at-the-2023-sag-awards",
+                "/fashion/gallery/the-fashion-industry-paid-homage-to-vivienne-westwood-at-her-london-cathedral-memorial-service"
+            ]
+        },
+        "vogue-italy": {
+            "orgId": "4gKgcFGLUgrHcYr9cHaVMPmGBE1r",
+            "homePageUrl": "https://stag.vogue.it",
+            "configUrl": "https://verso-stag.conde.io/config/vogue-italia/default?format=json",
+            "trendingStories": "https://stg-api.condenast.io/v1/recommendations?applicationID=vogue-it-verso-hp-trending&brand=vogue-it&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=it-IT&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fstag.vogue.it%2F&filter%5BcontentType%5D=ARTICLE",
+            "slideShow": [
+                "/bellezza/gallery/migliori-make-up-star-2022-blake-lively-zendaya-dakota-johnson",
+                "/moda/gallery/migliori-celeb-look-2022-red-carpet"
+            ]
+        },
+        "vogue-japan": {
+            "orgId": "4gKgcFFcD6gAWyA3SjihjvAhXcKz",
+            "homePageUrl": "https://stag.vogue.co.jp",
+            "slideShow": [
+                "/fashion/gallery/uk-vogue-andreas-kronthaler-for-vivienne-westwood-aw23",
+                "/celebrity/gallery/uk-vogue-baftas-red-carpet-2023"
+            ]
+        },
+        "vogue-mexico": {
+            "orgId": "4gKgcEpugP1k2DqLv4HGSdtNveYr",
+            "homePageUrl": "https://stag.vogue.mx",
+            "configUrl": "https://verso-stag.conde.io/config/vogue-mexico-y-latinoamerica-staging/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=vogue-mx-verso-hp-trending&brand=vogue-mx&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=es-MX&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fstag.vogue.mx%2F&filter%5BcontentType%5D=ARTICLE&filter%5BcontentType%5D=GALLERY",
+            "slideShow": [
+                "/galeria/chanel-otono-invierno-2023",
+                "/moda/galeria/mejores-vestidos-premios-bafta-2023-en-vivo"
+            ]
+        },
+        "vogue-spain": {
+            "orgId": "4gKgcF265GG9pUG3kv2WSnXDxf6x",
+            "homePageUrl": "https://stag.vogue.es",
+            "configUrl": "https://verso-stag.conde.io/config/vogue-espana/default?format=json",
+            "trendingStories": "https://stg-api.condenast.io/v1/recommendations?applicationID=vogue-es-verso-hp-trending&brand=vogue-es&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=es-ES&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fstag.vogue.es%2F&filter%5BcontentType%5D=ARTICLE&filter%5BcontentType%5D=GALLERY",
+            "slideShow": [
+                "/celebrities/galerias/premios-forque-2022-vestidos-alfombra-roja",
+                "/moda/galerias/street-style-mercado-flores-madrid-navidad-2022"
+            ]
+        },
+        "vogue-tw": {
+            "orgId": "4gKgcEpXTnKhKJCqAMkiDo3bMRc2",
+            "homePageUrl": "https://stag.vogue.com.tw",
+            "configUrl": "https://verso-stag.conde.io/config/vogue-taiwan/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=vogue-tw-verso-hp-trending&brand=vogue-tw&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=zh-Hant-TW&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fstag.vogue.com.tw%2F&filter%5BcontentType%5D=ARTICLE&filter%5BcontentType%5D=GALLERY",
+            "slideShow": [
+                "/fashion/galerie/hermes-aw-2023",
+                "/fashion/galerie/baftas-2023-jewellery"
+            ]
+        },
+        "vogue-uk": {
+            "orgId": "4gKgcF1QVUVe3yTYV18EPc3jSVfu",
+            "homePageUrl": "https://stag.vogue.co.uk",
+            "configUrl": "https://verso.gp-nonprod-na-0.conde.digital/config/vogue-uk-staging/default?format=json",
+            "trendingStories": "https://stg-api.condenast.io/v1/recommendations?applicationID=vogue-uk-verso-hp-trending&brand=vogue-uk&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=en-GB&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fstag.vogue.co.uk%2F&filter%5BcontentType%5D=ARTICLE",
+            "slideShow": [
+                "/fashion/gallery/celebrity-apres-ski-style",
+                "/fashion/gallery/met-gala-2022-red-carpet-arrivals-fashion"
+            ],
+            "events": [
+                "/events",
+                "/event/vogue-world-london-2023"
+            ]
+        },
+        "world-of-interiors": {
+            "orgId": "4gKgcF4gK41a3v4uYRUAZLvaKxH8",
+            "footerBrandName": "The World of Interiors",
+            "channel": [
+                "/exteriors"
+            ],
+            "homePageUrl": "https://stag.worldofinteriors.com",
+            "configUrl": "http://verso-stag.conde.io/config/world-of-interiors/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=woi-verso-hp-trending&brand=world-of-interiors&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=en-GB&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=4&url=https%3A%2F%2Fstag.worldofinteriors.com%2F&filter%5BcontentType%5D=ARTICLE"
+        }
+    },
+    "production": {
+        "ad-france": {
+            "orgId": "4gKgcErNbdw5bnx4oijrfDyG8aSv",
+            "homePageUrl": "https://www.admagazine.fr",
+            "channel": [
+                "/adinspiration"
+            ],
+            "configUrl": "http://verso-prod.conde.io/config/architectural-digest-france/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=architectural-digest-fr-verso-hp-trending&brand=architectural-digest-france&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=fr-FR&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.admagazine.fr%2F&filter%5BcontentType%5D=ARTICLE&filter%5BcontentType%5D=GALLERY"
+        },
+        "ad-germany": {
+            "orgId": "4gKgcF7DPc9LnReoSYZonec54fqS",
+            "homePageUrl": "https://www.ad-magazin.de",
+            "configUrl": "https://verso-prod.conde.io/config/architectural-digest-germany/default?format=json",
+            "channel": [
+                "/architektur/"
+            ],
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=ad-de-verso-hp-trending&brand=ad-de&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=de-DE&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fprod.ad-magazin.de%2F&filter%5BcontentType%5D=ARTICLE"
+        },
+        "ad-india": {
+            "apiUrl": "https://adin-api.aws.conde.io/",
+            "orgId": "4gKgcFBsEWoyod6ZDxPpx81RaR4R",
+            "homePageUrl": "https://www.architecturaldigest.in",
+            "channel": [
+                "/decorating/"
+            ],
+            "configUrl": "https://verso-prod.conde.io/config/architectural-digest-india/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=ad-in-verso-hp-trending&brand=ad-in&filter%5Blanguage%5D=en-IN&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.architecturaldigest.in%2F&filter%5BcontentType%5D=ARTICLE"
+        },
+        "ad-italy": {
+            "orgId": "4gKgcFBAb7qGTv1hzvAA92Lad1UC",
+            "homePageUrl": "https://www.ad-italia.it",
+            "configUrl": "https://verso-prod.conde.io/config/architectural-digest-italia/default?format=json",
+            "channel": [
+                "/news/"
+            ],
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=ad-it-verso-hp-trending&brand=ad-it&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=it-IT&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.ad-italia.it%2F&filter%5BcontentType%5D=ARTICLE"
+        },
+        "Allure": {
+            "apiUrl": "https://all-api.aws.conde.io/",
+            "orgId": "4gKgcEzcAZvqb9t5pcZHNaDvXACy",
+            "homePageUrl": "https://www.allure.com",
+            "configUrl": "https://verso-prod.conde.io/config/allure/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=allure-verso-hp-trending&brand=allure&filter%5BnumberOfDays%5D=-30&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.allure.com&filter%5BcontentType%5D=ARTICLE",
+            "gallery": [
+                "/gallery/french-manicure-french-tip-nail-designs"
+            ],
+            "newsletters": [
+                "/newsletter"
+            ],
+            "galleryMostPopularContent": "https://recs-api.conde.digital/v4?applicationID=allure-gallery-right-rail&brand=allure&url=https://www.allure.com/gallery/french-manicure-french-tip-nail-designs&filter%5Bstrategy%5D=POPULAR&filter%5Blanguage%5D=en-US&page%5Bsize%5D=3",
+            "galleryRecircContent": "https://recs-api.conde.digital/v4?applicationID=allure-gallery-bottom-recirc&brand=allure&url=https://www.allure.com/gallery/french-manicure-french-tip-nail-designs&filter%5Bstrategy%5D=POPULAR&filter%5BcontentType%5D=CNEVIDEO&filter%5Blanguage%5D=en-US&page%5Bsize%5D=4&forceStrategy={REPLACE_STRATEGY}"
+        },
+        "Architectural Digest": {
+            "orgId": "4gKgcEwfFP9GHnX9S1tUNoPkZdoV",
+            "homePageUrl": "https://www.architecturaldigest.com",
+            "directoryUrl": [
+                "/adpro/directory"
+            ],
+            "profile": [
+                "/adpro/directory/profile/mr-alex-tate-design"
+            ],
+            "search": [
+                "/adpro/directory/businesses",
+                "/search"
+            ],
+            "channel": [
+                "/clever",
+                "/culture-lifestyle"
+            ],
+            "formPage": [
+                "/adpro/directory/apply"
+            ],
+            "newsletters": [
+                "/newsletter"
+            ],
+            "gallery": [
+                "/gallery/most-beautiful-libraries-in-the-world"
+            ],
+            "article": [
+                "/story/bobby-berk-bedroom-mantras"
+            ],
+            "tagUrl": [
+                "/topic/lighting"
+            ],
+            "tag": [
+                "/topic/lighting"
+            ],
+            "mixedCarousal": [
+                "/story/the-benjamin-moore-color-trends-2024-palette-is-here-color-of-the-year-included"
+            ],
+            "galleryMostPopularContent": "https://recs-api.conde.digital/v4?applicationID=architectural-digest-right-rail&brand=architectural-digest&url=https://www.architecturaldigest.com/gallery/most-beautiful-libraries-in-the-world&filter%5Bstrategy%5D=POPULAR&filter%5Blanguage%5D=en-US&page%5Bsize%5D=3",
+            "galleryRecircContent": "https://recs-api.conde.digital/v4?applicationID=architectural-digest-gallery-bottom-recirc&brand=architectural-digest&url=https://www.architecturaldigest.com/gallery/most-beautiful-libraries-in-the-world&filter%5Bstrategy%5D=POPULAR&filter%5BcontentType%5D=CNEVIDEO&filter%5Blanguage%5D=en-US&page%5Bsize%5D=4&forceStrategy={REPLACE_STRATEGY}",
+            "articleRecircContent": "https://recs-api.conde.digital/v4?applicationID=architectural-digest-article-bottom-recirc&brand=architectural-digest&url=https://www.architecturaldigest.com/story/bobby-berk-bedroom-mantras&filter%5BnumberOfDays%5D=-30&filter%5BcontentType%5D=ARTICLE&filter%5BcontentType%5D=CNEVIDEO&page%5Bsize%5D=4&forceStrategy={REPLACE_STRATEGY}",
+            "configUrl": "http://verso-prod.conde.io/config/architectural-digest/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=architectural-digest-verso-hp-trending&brand=architectural-digest&filter%5BnumberOfDays%5D=-30&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.architecturaldigest.com&filter%5BcontentType%5D=ARTICLE"
+        },
+        "bon-appetit": {
+            "orgId": "4gKgcFFoYyWqtAJpQGvhXSjiGT5R",
+            "footerBrandName": "Bon Appétit",
+            "homePageUrl": "https://www.bonappetit.com",
+            "configUrl": "https://verso-prod.conde.io/config/bon-appetit/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=bon-appetit-verso-hp-trending&brand=bon-appetit&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=en-US&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.bonappetit.com%2F&filter%5BcontentType%5D=ARTICLE",
+            "channel": [
+                "/cooking",
+                "/shopping",
+                "/restaurants"
+            ],
+            "tag": [
+                "/simple-cooking/quick",
+                "/ingredient/wine",
+                "/dish/fried-rice",
+                "/cooking-method/braise",
+                "/diet/vegetarian",
+                "/simple-cooking/weeknight-meals",
+                "/ingredient/vegetable/leafy-greens/mustard-greens",
+                "/ingredient/meat/beef/brisket",
+                "/ingredient/other-ingredients/buttermilk",
+                "/ingredient/egg"
+            ],
+            "tagUrl": [
+                "/simple-cooking/quick",
+                "/ingredient/wine",
+                "/dish/fried-rice",
+                "/cooking-method/braise",
+                "/diet/vegetarian",
+                "/simple-cooking/weeknight-meals",
+                "/ingredient/mustard-greens",
+                "/ingredient/brisket",
+                "/ingredient/buttermilk",
+                "/ingredient/egg"
+            ],
+            "newsletters": [
+                "/newsletter"
+            ],
+            "gallery": [
+                "/gallery/passover-dessert-recipes",
+                "/gallery/dinner-ideas-for-two",
+                "/gallery/vegan-dinner-recipes-that-we-just-love"
+            ],
+            "galleryRecircContent": "https://recs-api.conde.digital/v4?applicationID=bon-appetit-gallery-bottom-recirc&brand=bon-appetit&url=https://www.bonappetit.com/{REPLACE_URI}&filter%5BnumberOfDays%5D=-30&filter%5BcontentType%5D=GALLERY&filter%5BcontentType%5D=CNEVIDEO&page%5Bsize%5D=4&forceStrategy={REPLACE_STRATEGY}",
+            "article": [
+                "/story/why-costco-rotisserie-chicken-taste-soapy",
+                "/story/best-coffee-makers",
+                "/story/food-diary-san-francisco-california-225k-year-salary"
+            ],
+            "articleRecircContent": "https://recs-api.conde.digital/v4?applicationID=bon-appetit-article-bottom-recirc&brand=bon-appetit&url=https://www.bonappetit.com/{REPLACE_URI}&filter%5BnumberOfDays%5D=-30&filter%5BcontentType%5D=ARTICLE&filter%5BcontentType%5D=CNEVIDEO&page%5Bsize%5D=4&forceStrategy={REPLACE_STRATEGY}",
+            "recipeRecircContent": "https://recs-api.conde.digital/v4?applicationID=bon-appetit-recipe-bottom-recirc&brand=bon-appetit&url=https://www.bonappetit.com/{REPLACE_URI}&filter%5BnumberOfDays%5D=-730&filter%5BcontentType%5D=RECIPE&page%5Bsize%5D=8&forceStrategy={REPLACE_STRATEGY}"
+        },
+        "Conde Nast Traveler": {
+            "apiUrl": "http://cnt-api.aws.conde.io/",
+            "orgId": "4gKgcEwKAVNxUrZexgrooyWrpMcR",
+            "footerBrandName": "Condé Nast Traveler",
+            "homePageUrl": "https://www.cntraveler.com",
+            "configUrl": "http://verso-prod.conde.io/config/conde-nast-traveler/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=conde-nast-traveler-verso-hp-trending&brand=conde-nast-traveler&filter%5BnumberOfDays%5D=-30&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.cntraveler.com&filter%5BcontentType%5D=ARTICLE",
+            "ampUrls": [
+                "https://www.cntraveler.com/story/diptyques-coveted-city-candles-are-online-for-one-week-only/amp"
+            ],
+            "search": [
+                "/search"
+            ],
+            "gallery": [
+                "/galleries/2014-04-30/places-winter-nonexistent",
+                "/gallery/calming-products-for-nervous-fliers/"
+            ],
+            "article": [
+                "/story/can-a-mark-of-authenticity-help-to-protect-indigenous-cultures-in-tourism"
+            ],
+            "mixedCarousal": [
+                "/sponsored/story/welcome-to-hong-kong"
+            ],
+            "galleryMostPopularContent": "https://recs-api.conde.digital/v4?applicationID=cnt-right-rail&brand=cntraveler&url=https://www.cntraveler.com/galleries/2014-04-30/places-winter-nonexistent&filter%5Bstrategy%5D=POPULAR&filter%5Blanguage%5D=en-US&page%5Bsize%5D=4",
+            "galleryRecircContent": "https://recs-api.conde.digital/v4?applicationID=cnt-bottom-recirc&brand=cntraveler&url=https://www.cntraveler.com/galleries/2014-04-30/places-winter-nonexistent&filter%5Bstrategy%5D=POPULAR&filter%5BcontentType%5D=CNEVIDEO&filter%5Blanguage%5D=en-US&page%5Bsize%5D=6&forceStrategy={REPLACE_STRATEGY}",
+            "channel": [
+                "/inspiration"
+            ]
+        },
+        "conde-nast-traveller-india": {
+            "orgId": "4gKgcErHtGXQNjDqs3o96JPwSR7a",
+            "footerBrandName": "Condé Nast Traveller India",
+            "channel": [
+                "/destinations"
+            ],
+            "homePageUrl": "https://www.cntraveller.in",
+            "configUrl": "https://verso-prod.conde.io/config/conde-nast-traveler-india/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=conde-nast-traveller-in-verso-hp-trending&brand=conde-nast-traveller-india&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=en-IN&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.cntraveller.in%2F&filter%5BcontentType%5D=ARTICLE"
+        },
+        "conde-nast-traveller-uk": {
+            "orgId": "4gKgcFDzStyuPk4AcJHpX1Z3TwVr",
+            "footerBrandName": "CN Traveller",
+            "channel": [
+                "/topic/inspiration/",
+                "/topic/destinations",
+                "/topic/places-to-stay/",
+                "/topic/style-culture/",
+                "/topic/eating-drinking/"
+            ],
+            "homePageUrl": "https://www.cntraveller.com",
+            "configUrl": "https://verso-prod.conde.io/config/conde-nast-traveler-uk/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=conde-nast-traveler-uk-verso-hp-trending&brand=conde-nast-traveller-uk&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=en-GB&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.cntraveller.com%2F&filter%5BcontentType%5D=ARTICLE"
+        },
+        "epicurious": {
+            "orgId": "4gKgcF6pnhncm3M8T5LwigZHwNYd",
+            "homePageUrl": "https://www.epicurious.com",
+            "configUrl": "https://verso-prod.conde.io/config/epicurious/default?format=json",
+            "recipe": [
+                "/recipes/food/views/cold-oven-pound-cake",
+                "/recipes/food/views/julias-american-style-potato-salad-358335",
+                "/recipes/food/views/my-favorite-simple-roast-chicken-231348"
+            ],
+            "channel": [
+                "/recipes-menus",
+                "/expert-advice",
+                "/shopping",
+                "/ingredients",
+                "/holidays-events"
+            ],
+            "recipeRecircContent": "https://recs-api.conde.digital/v4?applicationID=epicurious-recipe-bottom-recirc&brand=epicurious&url=https://www.epicurious.com/{REPLACE_URI}&filter%5BnumberOfDays%5D=-300&filter%5BcontentType%5D=RECIPE&page%5Bsize%5D=8&forceStrategy={REPLACE_STRATEGY}",
+            "gallery": [
+                "/recipes-menus/june-recipes-gallery",
+                "/holidays-events/christmas-potluck-ideas",
+                "/recipes-menus/best-vegetarian-dinner-recipes"
+            ],
+            "galleryRecircContent": "https://recs-api.conde.digital/v4?applicationID=epicurious-gallery-bottom-recirc&brand=epicurious&url=https://www.epicurious.com/{REPLACE_URI}&filter%5BnumberOfDays%5D=-30&filter%5BcontentType%5D=GALLERY&filter%5BcontentType%5D=CNEVIDEO&page%5Bsize%5D=8&forceStrategy={REPLACE_STRATEGY}",
+            "article": [
+                "/recipes-menus/thanksgiving-needs-texas-potatoes",
+                "/ingredients/what-are-bitters",
+                "/expert-advice/how-to-brine-a-turkey-for-thanksgiving-step-by-step-article"
+            ],
+            "newsletters": [
+                "/newsletter"
+            ],
+            "articleRecircContent": "https://recs-api.conde.digital/v4?applicationID=epicurious-article-bottom-recirc&brand=epicurious&url=https://www.epicurious.com/{REPLACE_URI}&filter%5BnumberOfDays%5D=-30&filter%5BcontentType%5D=ARTICLE&filter%5BcontentType%5D=CNEVIDEO&page%5Bsize%5D=8&forceStrategy={REPLACE_STRATEGY}"
+        },
+        "Glamour": {
+            "apiUrl": "http://glm-api.aws.conde.io/",
+            "orgId": "4gKgcEnoNA5tKPnCwDaCmWW3KuNX",
+            "homePageUrl": "https://www.glamour.com",
+            "configUrl": "http://verso-prod.conde.io/config/glamour/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=glamour-verso-hp-trending&brand=glamour&filter%5BnumberOfDays%5D=-30&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.glamour.com&filter%5BcontentType%5D=ARTICLE",
+            "gallery": [
+                "/gallery/zendaya-tom-holland-couples-style-photos"
+            ],
+            "article": [
+                "/story/dua-lipa-black-leather-dress"
+            ],
+            "newsletters": [
+                "/newsletter"
+            ],
+            "search": [
+                "/search"
+            ],
+            "galleryMostPopularContent": "https://recs-api.conde.digital/v4?applicationID=glamour-right-rail&brand=glamour&url=https://www.glamour.com/gallery/zendaya-tom-holland-couples-style-photos&filter%5Bstrategy%5D=POPULAR&filter%5Blanguage%5D=en-US&page%5Bsize%5D=4",
+            "galleryRecircContent": "https://recs-api.conde.digital/v4?applicationID=glamour-gallery-bottom-recirc&brand=glamour&url=https://www.glamour.com/gallery/zendaya-tom-holland-couples-style-photos&filter%5Bstrategy%5D=POPULAR&filter%5BcontentType%5D=CNEVIDEO&filter%5Blanguage%5D=en-US&page%5Bsize%5D=6&forceStrategy={REPLACE_STRATEGY}"
+        },
+        "glamour-uk": {
+            "orgId": "4gKgcFDP4UNpkHiYUB34naKr8hT4",
+            "homePageUrl": "www.glamourmagazine.co.uk",
+            "configUrl": "https://verso-prod.conde.io/config/glamour-uk/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=glamour-uk-verso-hp-trending&brand=glamour-uk&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=en-GB&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.glamourmagazine.co.uk%2F&filter%5BcontentType%5D=ARTICLE"
+        },
+        "gq-france": {
+            "orgId": "4gKgcEz7ELHNYPq91Fdajz32vTbh",
+            "homePageUrl": "https://www.gqmagazine.fr",
+            "configUrl": "http://verso-prod.conde.io/config/gq-france/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=gq-fr-verso-hp-trending&brand=gq-france&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=fr-FR&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.gqmagazine.fr&filter%5BcontentType%5D=ARTICLE&filter%5BcontentType%5D=GALLERY"
+        },
+        "gq-germany": {
+            "orgId": "4gKgcFFYEv8NZjJb8e651u5JnX9C",
+            "homePageUrl": "https://www.gq-magazin.de",
+            "configUrl": "https://verso-prod.conde.io/config/gq-germany/default?format=json",
+            "channel": [
+                "/mode/",
+                "/body-care/",
+                "/mobilitaet/",
+                "/technik/",
+                "/lifestyle/",
+                "/entertainment/"
+            ],
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=gq-de-verso-hp-trending&brand=gq-de&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=de-DE&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.gq-magazin.de&filter%5BcontentType%5D=ARTICLE&filter%5BcontentType%5D=GALLERY"
+        },
+        "gq-india": {
+            "apiUrl": "https://gqin-api.aws.conde.io/",
+            "orgId": "4gKgcFAHaLcU6HjSwQYRRWJJt88A",
+            "homePageUrl": "https://www.gqindia.com",
+            "configUrl": "https://verso-prod.conde.io/config/gq-india/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=gq-in-verso-hp-trending&brand=gq-in&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=en-IN&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.gqindia.com&filter%5BcontentType%5D=ARTICLE&filter%5BcontentType%5D=GALLERY"
+        },
+        "gq-italy": {
+            "orgId": "4gKgcEt82PDF2a6uWJwc33srC8vw",
+            "homePageUrl": "https://www.gqitalia.it",
+            "configUrl": "http://verso-prod.conde.io/config/gq-italia/default?format=json",
+            "channel": [
+                "/lifestyle/",
+                "/moda/",
+                "/news/",
+                "/sport/",
+                "/tech/",
+                "/motori/",
+                "/show/",
+                "/video/"
+            ],
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=gq-it-verso-hp-trending&brand=gq-italia&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=it-IT&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.gqitalia.it&filter%5BcontentType%5D=ARTICLE&filter%5BcontentType%5D=GALLERY"
+        },
+        "gq-japan": {
+            "orgId": "4gKgcFEqjoBt37ZQjFG1KMeamMGD",
+            "homePageUrl": "https://www.gqjapan.jp",
+            "configUrl": "https://verso-prod.conde.io/config/gq-japan/default?format=json",
+            "channel": [
+                "/fashion/",
+                "/cars/",
+                "/watches/",
+                "/lifestyle/",
+                "/culture/"
+            ],
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=gq-jp-verso-hp-trending&brand=gq-jp&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=ja-JP&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.gqjapan.jp&filter%5BcontentType%5D=ARTICLE"
+        },
+        "gq-mexico": {
+            "orgId": "4gKgcF3cnbR47mCnxiabEcBQM6Bh",
+            "homePageUrl": "https://www.gq.com.mx",
+            "configUrl": "https://verso-prod.conde.io/config/gq-mexico-y-latinoamerica/default?format=json",
+            "channel": [
+                "/moda/",
+                "/estilo-de-vido/",
+                "/entretenimiento/",
+                "/cuidado-personal/",
+                "/relojes/",
+                "/videos/",
+                "/deportes/"
+            ],
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=gq-mx-verso-hp-trending&brand=gq-mx&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=es-MX&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.gq.com.mx%2F&filter%5BcontentType%5D=ARTICLE&filter%5BcontentType%5D=GALLERY"
+        },
+        "gq-spain": {
+            "orgId": "4gKgcEtx6fmkMraUr5iEhx6zJsq5",
+            "homePageUrl": "https://www.revistagq.com",
+            "configUrl": "http://verso-prod.conde.io/config/gq-espana/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=gq-es-verso-hp-trending&brand=gq-espana&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=es-ES&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.revistagq.com"
+        },
+        "gq-tw": {
+            "orgId": "4gKgcFFSgLP6uT2THrANNiqSYyYW",
+            "homePageUrl": "https://www.gq.com.tw",
+            "configUrl": "https://verso-prod.conde.io/config/gq-taiwan/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=gq-tw-verso-hp-trending&brand=gq-tw&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=zh-Hant-TW&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.gq.com.tw%2F&filter%5BcontentType%5D=ARTICLE&filter%5BcontentType%5D=GALLERY"
+        },
+        "gq-uk": {
+            "orgId": "4gKgcEyA7gQoJUFsbr2fioHUJeep",
+            "homePageUrl": "https://www.gq-magazine.co.uk",
+            "configUrl": "https://verso-prod.conde.io/config/gq-uk/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=gq-uk-verso-hp-trending&brand=gq-uk&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=en-GB&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=4&url=https%3A%2F%2Fwww.gq-magazine.co.uk%2F&filter%5BcontentType%5D=ARTICLE"
+        },
+        "gq-us": {
+            "orgId": "4gKgcEsTcGt6aHp4Bmme7bUhqJjS",
+            "homePageUrl": "https://www.gq.com",
+            "configUrl": "https://verso-prod.conde.io/config/gq/default?format=json",
+            "configHomeUrl": "https://verso.gp-prod-na-0.conde.digital/config/gq/homepage?format=json",
+            "article": [
+                "/story/james-gunn-superman-legacy-casts-david-corenswet-superman-rachel-brosnahan-lois-lane"
+            ],
+            "search": [
+                "/search"
+            ],
+            "gallery": [
+                "/gallery/pharrell-williams-best-outfits-style"
+            ],
+            "galleryRecircContent": "https://recs-api.conde.digital/v4?applicationID=gq-gallery-bottom-recirc&brand=gq&url=https://www.gq.com/gallery/pharrell-williams-best-outfits-style&filter%5BnumberOfDays%5D=-15&filter%5BcontentType%5D=GALLERY&filter%5BcontentType%5D=CNEVIDEO&page%5Bsize%5D=4&forceStrategy={REPLACE_STRATEGY}",
+            "articleRecircContent": "https://recs-api.conde.digital/v4?applicationID=gq-article-bottom-recirc&brand=gq&url=https://www.gq.com/story/james-gunn-superman-legacy-casts-david-corenswet-superman-rachel-brosnahan-lois-lane&filter%5BnumberOfDays%5D=-30&filter%5BcontentType%5D=ARTICLE&filter%5BcontentType%5D=CNEVIDEO&page%5Bsize%5D=4&forceStrategy={REPLACE_STRATEGY}",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=gq-verso-hp-trending&brand=gq&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=en-US&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.gq.com&filter%5BcontentType%5D=ARTICLE&filter%5BcontentType%5D=GALLERY"
+        },
+        "house-and-garden": {
+            "orgId": "4gKgcF7wNv1KbEuZQTJrJboMSsgv",
+            "configUrl": "http://verso-prod.conde.io/config/house-and-garden/default?format=json",
+            "homePageUrl": "https://www.houseandgarden.co.uk",
+            "gallery": [
+                "/gallery/best-kitchen-appliances-and-utensils"
+            ]
+        },
+        "Self": {
+            "orgId": "4gKgcF6nVvtKX5y2VznaJcDBuD47",
+            "homePageUrl": "https://www.self.com",
+            "newsletters": [
+                "/newsletter"
+            ],
+            "configUrl": "http://verso-prod.conde.io/config/self/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=self-verso-hp-trending&brand=self&filter%5BnumberOfDays%5D=-30&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.self.com&filter%5BcontentType%5D=ARTICLE"
+        },
+        "tatler": {
+            "orgId": "4gKgcEn1UWvRw4NpGrgozyWW8HMj",
+            "homePageUrl": "https://www.tatler.com",
+            "footerBrandName": "Tatler",
+            "configUrl": "http://verso-prod.conde.io/config/tatler/default?format=json",
+            "channel": [
+                "/bystander/",
+                "/topic/style/",
+                "/topic/beauty/",
+                "/topic/royals/",
+                "/topic/features/",
+                "/topic/travel/"
+            ],
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=tatler-verso-hp-trending&brand=tatler&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=en-GB&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=4&url=https%3A%2F%2Fwww.tatler.com%2F&filter%5BcontentType%5D=ARTICLE"
+        },
+        "Teen Vogue": {
+            "apiUrl": "http://tnv-api.aws.conde.io/",
+            "orgId": "4gKgcEy8vfp63M8AMQ9WnqWc9Min",
+            "homePageUrl": "https://www.teenvogue.com",
+            "configUrl": "http://verso-prod.conde.io/config/teen-vogue/default?format=json",
+            "newsletters": [
+                "/newsletter"
+            ],
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=teen-vogue-verso-hp-trending&brand=teen-vogue&filter%5BnumberOfDays%5D=-30&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.teen-vogue.com&filter%5BcontentType%5D=ARTICLE"
+        },
+        "Them": {
+            "orgId": "4gKgcF1jP2RH6ACCMiyhhyUNntrz",
+            "homePageUrl": "https://www.them.us",
+            "configUrl": "https://verso.gp-prod-na-0.conde.digital/config/them/default?format=json",
+            "newsletters": [
+                "/newsletter"
+            ]
+        },
+        "The New Yorker": {
+            "apiUrl": "https://tny-api.aws.conde.io/",
+            "orgId": "4gKgcFDnpSvUqozcC7TYUEcCiDJv",
+            "homePageUrl": "https://www.newyorker.com",
+            "article": [
+                "/magazine/2020/02/17/with-the-beatles"
+            ],
+            "cartoonCaption": [
+                "/cartoons/contest",
+                "/cartoons/contest#rate",
+                "/cartoons/contest#vote",
+                "/cartoons/contest#winner"
+            ],
+            "channel": [
+                "/news",
+                "/culture",
+                "/fiction-and-poetry",
+                "/humor",
+                "/magazine",
+                "/crossword-puzzles-and-games",
+                "/goings-on"
+            ],
+            "newsletters": [
+                "/newsletter"
+            ],
+            "configUrl": "http://verso-prod.conde.io/config/the-new-yorker/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=newyorker-verso-hp-trending&brand=newyorker&filter%5BnumberOfDays%5D=-30&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.newyorker.com&filter%5BcontentType%5D=ARTICLE",
+            "shopCartoonUrl": "https://condenaststore.com/conde-nast-brand/cartoons"
+        },
+        "upc-ad-clever-us": {
+            "uri_Article": "story/best-wooden-bed-frames",
+            "uri_Gallery": "gallery/best-adjustable-bed-frame",
+            "articleProdUrl": "https://www.architecturaldigest.com/story/best-wooden-bed-frames",
+            "galleryProdUrl": "https://www.architecturaldigest.com/gallery/best-adjustable-bed-frame",
+            "firstRetailerArticle": "https://www.westelm.com/products/mid-century-bedframe-acorn-h001/",
+            "firstRetailerGallery": "https://www.nectarsleep.com/adjustable-bed-frame/full"
+        },
+        "upc-bon-appetit-us": {
+            "uri_Article": "story/how-to-choose-nonalcoholic-drinks",
+            "articleProdUrl": "https://www.bonappetit.com/story/how-to-choose-nonalcoholic-drinks",
+            "firstRetailerArticle": "https://bonbuz.com/products/bonbuz-bc?sscid=21k8_6p454&"
+        },
+        "upc-epicurious-us": {
+            "uri_Article": "expert-advice/best-toaster-ovens-breville-article",
+            "articleProdUrl": "https://www.epicurious.com/expert-advice/best-toaster-ovens-breville-article",
+            "firstRetailerArticle": "https://www.amazon.com/Breville-BOV900BSS-Convection-Brushed-Stainless/dp/B01N5UPTZS"
+        },
+        "upc-glamour-us": {
+            "uri_Article": "story/fall-capsule-wardrobe-essentials",
+            "uri_Gallery": "gallery/best-new-hair-launches-april-2019",
+            "articleProdUrl": "https://www.glamour.com/story/fall-capsule-wardrobe-essentials",
+            "galleryProdUrl": "https://www.glamour.com/gallery/best-new-hair-launches-april-2019",
+            "firstRetailerArticle": "https://www.amazon.com/Hanes-Comfortsoft-T-Shirt-White-Medium/dp/B00KBZOVPY",
+            "firstRetailerGallery": "https://www.oribe.com/products/curl-gelee-for-shine-definition?irclickid=39rRM4Q02xyPTmMyFW0goTZdUkHz6f155SWDS80&irgwc=1"
+        },
+        "upc-gq-germany": {
+            "uri_Article": "body-care/artikel/bartroller-test-3-dermaroller-bartwuchs-foerdern-tipps",
+            "uri_Gallery": "body-care/galerie/nasenhaartrimmer-test-vergleich",
+            "articleProdUrl": "https://www.gq-magazin.de/body-care/artikel/bartroller-test-3-dermaroller-bartwuchs-foerdern-tipps",
+            "galleryProdUrl": "https://www.gq-magazin.de/body-care/galerie/nasenhaartrimmer-test-vergleich",
+            "firstRetailerArticle": "https://www.amazon.de/-/en/Anthony-Brown%C2%AE-Beard-roller-growth/",
+            "firstRetailerGallery": "https://www.amazon.de/Philips-MG3740-3000-serie-Verzorgingsset"
+        },
+        "upc-gq-us": {
+            "uri_Article": "story/best-casual-pants",
+            "uri_Gallery": "gallery/best-no-show-socks-for-men",
+            "uri_Plp": "gq-summer-style-shop",
+            "articleProdUrl": "https://www.gq.com/story/best-casual-pants",
+            "galleryProdUrl": "https://www.gq.com/gallery/best-no-show-socks-for-men",
+            "plpProdUrl": "https://www.gq.com/gq-summer-style-shop",
+            "firstRetailerArticle": "https://www.walmart.com/ip/Levi-s-Men-s-501-Original-Fit-Jeans/374234521",
+            "firstRetailerGallery": "https://www.amazon.com/FALKE-Breathable-Cooling-Effect-Colorful/dp/B00NBW1RLA"
+        },
+        "upc-gq-spain": {
+            "uri_Article": "compras/articulo/mejores-cafeteras-espresso",
+            "uri_Gallery": "compras/galeria/mejores-zapatillas-crossfit-hombre-2024",
+            "articleProdUrl": "https://www.revistagq.com/compras/articulo/mejores-cafeteras-espresso",
+            "galleryProdUrl": "https://www.revistagq.com/compras/galeria/mejores-zapatillas-crossfit-hombre-2024",
+            "firstRetailerArticle": "https://www.westwing.es/cafetera-espresso-superautomatica-50s-style-153732.html",
+            "firstRetailerGallery": "https://www.nike.com/es/t/metcon-9-zapatillas-de-training-VH8fcv/DZ2617-003"
+        },
+        "upc-self-us": {
+            "uri_Article": "story/best-shoes-for-plantar-fasciitis",
+            "uri_Gallery": "gallery/best-sandals-with-arch-support",
+            "uri_Plp": "shopping",
+            "articleProdUrl": "https://www.self.com/story/best-shoes-for-plantar-fasciitis",
+            "galleryProdUrl": "https://www.self.com/gallery/best-sandals-with-arch-support",
+            "plpProdUrl": "https://www.self.com/shopping",
+            "firstRetailerArticle": "https://www.hoka.com/en/us/womens-everyday-running-shoes/clifton-9/1127896.html",
+            "firstRetailerGallery": "https://www.amazon.com/dp/B013PGZ1EK/?asc_source=verso&asc_campaign=62963d1bb5641223a26ac211"
+        },
+        "upc-teen-vogue-us": {
+            "uri_Article": "story/best-backpacks-for-school",
+            "uri_Gallery": "gallery/cool-backpacks-for-teens",
+            "articleProdUrl": "https://www.teenvogue.com/story/best-backpacks-for-school",
+            "galleryProdUrl": "https://www.teenvogue.com/gallery/cool-backpacks-for-teens",
+            "firstRetailerArticle": "https://www.amazon.com/Backpack-Business-Charging-Resistant-Computer/dp/B07BWD734D?",
+            "firstRetailerGallery": "https://www.amazon.com/Backpack-Charging-Resistant-Business-College/dp/B07GTTYJMG/?"
+        },
+        "upc-vanity-fair-us": {
+            "uri_Article": "style/2023/08/beauty-inspired-fiction",
+            "articleProdUrl": "https://www.vanityfair.com/style/2023/08/beauty-inspired-fiction",
+            "firstRetailerArticle": "https://www.amazon.com/Rouge-Novel-Mona-Awad/dp/1982169699?asc_source=verso&asc_campaign=64d2a2ec6d6666ee44fc45d9"
+        },
+        "upc-vogue-germany": {
+            "uri_Article": "lifestyle/artikel/schoene-coffee-table-book-bildbaende",
+            "articleProdUrl": "https://www.vogue.de/lifestyle/artikel/die-schoensten-coffee-table-books-bildbaende",
+            "firstRetailerArticle": "https://www.thalia.de/shop/home/artikeldetails/A1039028727"
+        },
+        "upc-vogue-uk": {
+            "uri_Article": "beauty/article/best-eyelash-growth-serum",
+            "uri_Gallery": "gallery/best-medik8-products",
+            "uri_Plp": "what-to-buy-now",
+            "articleProdUrl": "https://www.vogue.co.uk/beauty/article/best-eyelash-growth-serum",
+            "galleryProdUrl": "https://www.vogue.co.uk/gallery/best-medik8-products",
+            "plpProdUrl": "https://www.vogue.co.uk/what-to-buy-now",
+            "firstRetailerArticle": "https://www.skinstation.co.uk/obagi-nu-ciltm-eyelash-enhancing-serum",
+            "firstRetailerGallery": "https://www.medik8.com/products/sleep-glycolic?wgu=290365_217295_17043590136033_22128c49fe"
+        },
+        "upc-vogue-us": {
+            "uri_Article": "article/dresses",
+            "uri_Gallery": "slideshow/best-lug-sole-boots",
+            "uri_Plp": "best-dresses",
+            "articleProdUrl": "https://www.vogue.com/article/dresses",
+            "firstRetailerArticle": "https://www.mytheresa.com/us/en/women/rodarte-floral-silk-twill-midi-dress-pink-p00914461",
+            "lastRetailerGallery": "https://www.revolve.com/tony-bianco-wolfe-bootie-in-black-como/dp/TONR-WZ560/",
+            "firstRetailerPlp": "https://www.neimanmarcus.com/en-in/p/altuzarra-denning-ribbed-a-line-maxi-dress-prod266990213",
+            "galleryProdUrl": "https://www.vogue.com/slideshow/best-lug-sole-boots",
+            "plpProdUrl": "https://www.vogue.com/best-dresses"
+        },
+        "vanity-fair": {
+            "orgId": "4gKgcExWVbtxQKpGvgwhWNaTTr3V",
+            "homePageUrl": "https://www.vanityfair.com",
+            "configUrl": "https://verso-prod.conde.io/config/vanity-fair/default?format=json",
+            "article": [
+                "/style/2023/11/prince-harry-and-meghan-markle-veterans-day-and-remembrance-day"
+            ],
+            "gallery": [
+                "/style/photos/2023/08/gavin-bonds-insider-perspective-supermodel-era"
+            ],
+            "newsletters": [
+                "/newsletters"
+            ],
+            "search": [
+                "/search"
+            ],
+            "galleryMostPopularContent": "https://recs-api.conde.digital/v4?applicationID=vanity-fair-right-rail&brand=vanity-fair&url=https://www.vanityfair.com/style/photos/2023/08/gavin-bonds-insider-perspective-supermodel-era",
+            "galleryRecircContent": "https://recs-api.conde.digital/v4?applicationID=vanity-fair-bottom-recirc&brand=vanity-fair&url=https://www.vanityfair.com/hollywood/style/photos/2023/08/gavin-bonds-insider-perspective-supermodel-era&filter%5Bstrategy%5D=POPULAR&filter%5BcontentType%5D=CNEVIDEO&filter%5Blanguage%5D=en-US&page%5Bsize%5D=6&forceStrategy={REPLACE_STRATEGY}",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=vanity-fair-verso-hp-trending&brand=vanity-fair&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=en-US&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.vanityfair.com%2F&filter%5BcontentType%5D=ARTICLE%22"
+        },
+        "vanity-fair-france": {
+            "orgId": "4gKgcFC8wZLPuVx6oercXTFVTnHU",
+            "homePageUrl": "https://www.vanityfair.fr",
+            "channel": [
+                "/culture"
+            ],
+            "configUrl": "https://verso-prod.conde.io/config/vanity-fair-france/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=vanity-fair-fr-verso-hp-trending&brand=vanity-fair-fr&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=fr-FR&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.vanityfair.fr%2F&filter%5BcontentType%5D=ARTICLE"
+        },
+        "vanity-fair-italy": {
+            "orgId": "4gKgcFHn3TmqKPbi8UfYbxugWeZm",
+            "homePageUrl": "https://www.vanityfair.it",
+            "configUrl": "https://verso-prod.conde.io/config/vanity-fair-italia/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=vanity-fair-it-verso-hp-trending&brand=vanity-fair-it&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=it-IT&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.vanityfair.it%2F&filter%5BcontentType%5D=ARTICLE"
+        },
+        "Vogue": {
+            "apiUrl": "http://vogue-api.aws.conde.io/",
+            "orgId": "4gKgcErsy9d7RdbkfDjCvzkRF36J",
+            "homePageUrl": "https://www.vogue.com",
+            "configUrl": "https://verso-prod.conde.io/config/vogue/default?format=json",
+            "seasons": "https://www.vogue.com/vogue/api/runway/seasons",
+            "designers": "https://www.vogue.com/vogue/api/runway/designers",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=vogue-verso-hp-trending&brand=vogue&filter%5BnumberOfDays%5D=-30&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.vogue.com&filter%5BcontentType%5D=ARTICLE",
+            "slideShow": [
+                "/slideshow/met-gala-2022-red-carpet-live-celebrity-fashion",
+                "/slideshow/10-best-dressed-stars-jessica-chastain-danai-gurira-alexa-chung"
+            ],
+            "gallery": [
+                "/slideshow/milan-fashion-week-spring-2025-front-row",
+                "/tag/event/vogue-world"
+            ],
+            "galleryMostPopularContent": "https://recs-api.conde.digital/v4?applicationID=vogue-right-rail&brand=vogue&url=https://www.vogue.com/slideshow/planned-parenthood-chrissy-teigen-padma-lakshmi-spring-into-action-gala-2023",
+            "galleryRecircContent": "https://recs-api.conde.digital/v4?applicationID=vogue-bottom-recirc&brand=vogue&url=https://www.vogue.com/slideshow/planned-parenthood-chrissy-teigen-padma-lakshmi-spring-into-action-gala-2023&filter%5Bstrategy%5D=POPULAR&filter%5BcontentType%5D=CNEVIDEO&filter%5Blanguage%5D=en-US&page%5Bsize%5D=6&forceStrategy={REPLACE_STRATEGY}",
+            "article": [
+                "/article/jodie-comer-olivier-awards"
+            ],
+            "channel": [
+                "/fashion/",
+                "/beauty",
+                "/fashion-shows"
+            ],
+            "subChannel": [
+                "/fashion/celebrity-style"
+            ],
+            "tag": [
+                "/tag/event/vogue-world",
+                "/tag/event/met-gala"
+            ],
+            "runway": [
+                "/fashion-shows"
+            ],
+            "search": [
+                "/search"
+            ],
+            "contributor": [
+                "/contributor/chioma-nnadi"
+            ],
+            "runwayShow": [
+                "/fashion-shows/fall-2024-menswear/comme-des-garcons-homme-plus"
+            ],
+            "newsletters": [
+                "/newsletter"
+            ],
+            "streetStyle": [
+                "/slideshow/our-best-street-style-from-paris-fall-2024-mens-shows"
+            ]
+        },
+        "vogue-business": {
+            "apiUrl": "https://voguebz-api.aws.conde.io/",
+            "orgId": "4gKgcF97qB1zJEDhJQud7Ns5mVfr",
+            "homePageUrl": "https://www.voguebusiness.com",
+            "configUrl": "https://verso.gp-prod-na-0.conde.digital/config/vogue-business/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=voguebusiness-verso-hp-trending&brand=vogue&filter%5BnumberOfDays%5D=-30&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.voguebusiness.com&filter%5BcontentType%5D=ARTICLE"
+        },
+        "vogue-france": {
+            "orgId": "4gKgcFBMo6E3SZkX1FLLaEdoQuWW",
+            "homePageUrl": "https://www.vogue.fr",
+            "configUrl": "https://verso-prod.conde.io/config/vogue-paris/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=vogue-paris-verso-hp-trending&brand=vogue-paris&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=fr-FR&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.vogue.fr%2F&filter%5BcontentType%5D=ARTICLE&filter%5BcontentType%5D=GALLERY",
+            "slideShow": [
+                "/mariage/galerie/couples-stars-styles-mode-2021",
+                "/mode/galerie/retour-images-looks-beatrice-borromeo"
+            ],
+            "tag": [
+                "/dossier/vogue-world",
+                "/dossier/met-gala"
+            ]
+        },
+        "vogue-germany": {
+            "orgId": "4gKgcFGnLeAWdGYFNPRUEtYzbgA4",
+            "homePageUrl": "https://www.vogue.de",
+            "configUrl": "https://verso-prod.conde.io/config/vogue-germany/default?format=json",
+            "channel": [
+                "/mode",
+                "/lifestyle",
+                "/beauty",
+                "/kultur"
+            ],
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=vogue-de-verso-hp-trending&brand=vogue-de&filter%5BnumberOfDays%5D=-90&filter%5Blanguage%5D=de-DE&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=4&url=https%3A%2F%2Fwww.vogue.de%2F&filter%5BcontentType%5D=ARTICLE&filter%5BcontentType%5D=GALLERY",
+            "slideShow": [
+                "/mode/galerie/lady-gaga-outfits-house-of-gucci-set-ikonische-fashion-momente",
+                "/mode/galerie/blumarine-x-hello-kitty-kollektion-must-haves"
+            ],
+            "tag": [
+                "/tag/vogue-world",
+                "/tag/met-gala"
+            ]
+        },
+        "vogue-india": {
+            "orgId": "4gKgcFGHWnVQmpPXpEJskFv5f6AV",
+            "homePageUrl": "https://www.vogue.in",
+            "configUrl": "https://verso-prod.conde.io/config/vogue-india/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=vogue-in-verso-hp-trending&brand=vogue-in&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=en-IN&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.vogue.in%2F&filter%5BcontentType%5D=ARTICLE",
+            "slideShow": [
+                "/fashion/gallery/the-best-dressed-stars-at-the-2021-primetime-emmy-awards",
+                "/fashion/gallery/how-to-dress-for-the-party-season-like-dua-lipa"
+            ],
+            "tag": [
+                "/topics/vogue-world",
+                "/topics/met-gala"
+            ]
+        },
+        "vogue-italy": {
+            "orgId": "4gKgcF8zDaAdahhJpU4xjxwp6vRj",
+            "homePageUrl": "https://www.vogue.it",
+            "configUrl": "https://verso-prod.conde.io/config/vogue-italia/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=vogue-it-verso-hp-trending&brand=vogue-it&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=it-IT&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.vogue.it%2F&filter%5BcontentType%5D=ARTICLE",
+            "slideShow": [
+                "/moda/gallery/jared-leto-stile-look-piu-belli-attore-house-of-gucci",
+                "/moda/gallery/maglioni-rossi-donna-modelli-must-have-come-abbinarli"
+            ],
+            "tag": [
+                "/tags/vogue-world",
+                "/tags/met-gala"
+            ]
+        },
+        "vogue-japan": {
+            "orgId": "4gKgcF1u2XMWTnit3RNXyKf5YBF4",
+            "homePageUrl": "https://www.vogue.co.jp",
+            "configUrl": "https://verso-prod.conde.io/config/vogue-taiwan/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=vogue-jp-verso-hp-trending&brand=vogue-jp&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=zh-Hant-TW&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.vogue.com.jp%2F&filter%5BcontentType%5D=ARTICLE&filter%5BcontentType%5D=GALLERY",
+            "slideShow": [
+                "/fashion/gallery/us-vogue-lagos-fashion-snap",
+                "/beauty/gallery/uk-vogue-zoe-kravitz-hair"
+            ],
+            "tag": [
+                "/tag/vogueworld",
+                "/tag/metgala"
+            ]
+        },
+        "vogue-mexico": {
+            "orgId": "4gKgcEnmhE2E85tPDqmPk2N2rk3C",
+            "homePageUrl": "https://www.vogue.mx",
+            "configUrl": "https://verso-prod.conde.io/config/vogue-mexico-y-latinoamerica/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=vogue-mx-verso-hp-trending&brand=vogue-mx&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=es-MX&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.vogue-mx%2F&filter%5BcontentType%5D=ARTICLE&filter%5BcontentType%5D=GALLERY",
+            "slideShow": [
+                "/moda/galeria/como-llevar-el-color-violeta-very-peri-al-mejor-estilo-de-la-princesa-diana",
+                "/moda/galeria/vestidos-de-fiesta-para-celebrar-tu-cumpleanos"
+            ],
+            "tag": [
+                "/tags/vogue-world",
+                "/alfombra-roja/met-gala"
+            ]
+        },
+        "vogue-spain": {
+            "orgId": "4gKgcErD84i1cLe5MJbK5a9rTmqT",
+            "homePageUrl": "https://www.vogue.es",
+            "configUrl": "https://verso-prod.conde.io/config/vogue-espana/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=vogue-es-verso-hp-trending&brand=vogue-es&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=es-ES&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.vogue-es%2F&filter%5BcontentType%5D=ARTICLE&filter%5BcontentType%5D=GALLERY",
+            "slideShow": [
+                "/moda/galerias/jennifer-lopez-estilo-anos-90",
+                "/living/galerias/ordenadores-portatiles-hp-envy-14-spectre-x360-14"
+            ],
+            "tag": [
+                "/tags/vogue-world",
+                "/celebrities/gala-met"
+            ]
+        },
+        "vogue-tw": {
+            "orgId": "4gKgcF484y3TskBHK8x5Jb35bng4",
+            "homePageUrl": "https://www.vogue.com.tw",
+            "configUrl": "https://verso-prod.conde.io/config/vogue-taiwan/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=vogue-tw-verso-hp-trending&brand=vogue-tw&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=zh-Hant-TW&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.vogue.com.tw%2F&filter%5BcontentType%5D=ARTICLE&filter%5BcontentType%5D=GALLERY",
+            "slideShow": [
+                "/fashion/galerie/michael-kors-holidays-collections",
+                "/fashion/galerie/gucci-love-parade-show"
+            ],
+            "tag": [
+                "/tag/vogue-world",
+                "/tag/met-gala"
+            ],
+            "mixedCarousal": [
+                "/article/best-things-to-do-in-los-angeles"
+            ]
+        },
+        "vogue-uk": {
+            "orgId": "4gKgcEoDWriApA1nauzJwNnT7XNz",
+            "homePageUrl": "https://www.vogue.co.uk",
+            "configUrl": "https://verso-prod.conde.io/config/vogue-uk/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=vogue-uk-verso-hp-trending&brand=vogue-uk&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=en-GB&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=10&url=https%3A%2F%2Fwww.vogue.co.uk%2F&filter%5BcontentType%5D=ARTICLE",
+            "slideShow": [
+                "/fashion/gallery/inside-fashion-awards-2021",
+                "/fashion/gallery/gucci-best-red-carpet-looks"
+            ],
+            "tag": [
+                "/tags/vogue-world",
+                "/tags/met-ball"
+            ],
+            "events": [
+                "/events",
+                "/event/vogue-club/meet-the-editor/francesca-ragazzi"
+            ]
+        },
+        "wired": {
+            "apiUrl": "https://wired-api.aws.conde.io/",
+            "orgId": "4gKgcErvvpkwWft3fSWg7c2niGQB",
+            "configUrl": "https://verso.gp-prod-na-0.conde.digital/config/wired/default?format=json",
+            "homePageUrl": "https://www.wired.com",
+            "galleryMostPopularContent": "https://recs-api.conde.digital/v4?applicationID=wired-right-rail&brand=wired&url=https://www.wired.com/story/for-some-autistic-people-chatgpt-is-a-lifeline/&filter%5Bstrategy%5D=POPULAR&filter%5Blanguage%5D=en-US&page%5Bsize%5D=4",
+            "article": [
+                "/story/for-some-autistic-people-chatgpt-is-a-lifeline"
+            ],
+            "gallery": [
+                "/gallery/best-tarot-card-apps/"
+            ],
+            "newsletters": [
+                "/newsletter"
+            ],
+            "search": [
+                "/search"
+            ]
+        },
+        "world-of-interiors": {
+            "orgId": "4gKgcF9Cik6qJgVSPKCGucxjnbFy",
+            "footerBrandName": "The World of Interiors",
+            "channel": [
+                "/exteriors"
+            ],
+            "homePageUrl": "https://www.worldofinteriors.com",
+            "configUrl": "http://verso-prod.conde.io/config/world-of-interiors/default?format=json",
+            "trendingStories": "https://recs-api.conde.digital/v4?applicationID=woi-verso-hp-trending&brand=world-of-interiors&filter%5BnumberOfDays%5D=-30&filter%5Blanguage%5D=en-GB&filter%5Bstrategy%5D=POPULAR&page%5Bsize%5D=4&url=https%3A%2F%2Fwww.worldofinteriors.com%2F&filter%5BcontentType%5D=ARTICLE"
+        }
+    }
+}

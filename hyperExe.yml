@@ -1,0 +1,51 @@
+autosplit: true
+cacheDirectories:
+    - node_modules
+cacheKey: '{{ checksum "package.json" }}'
+concurrency: 1
+cypress: true
+cypressOps:
+    Build: Hyperexecute Cypress automation test
+    BuildTags:
+        - Hyperexecute-Cypress
+    Tags:
+        - Hyperexecute
+        - Cypress
+        - Windows
+        - Hybrid
+env:
+    CYPRESS_CACHE_FOLDER: cypressCache
+    LT_SDK_DEBUG: true
+globalTimeout: 100
+jobLabel:
+    - cypress-v12
+    - win
+    - hybrid
+matrix:
+    browser:
+        - firefox
+    os:
+        - mac
+maxRetries: 2
+parallelism: 1
+partialReports:
+    email:
+        to:
+            - guru_murugan@condenast.com
+    frameworkName: Brand_Repo-Cypress Regression Report
+    location: target/surefire-reports/html
+    type: html
+pre:
+    - npm install
+    - npm install cypress --save-dev
+report: true
+retryOnFailure: false
+runson: ${matrix.os}
+testDiscovery:
+    command: node ritam.js
+    mode: dynamic
+    type: raw
+testRunnerCommand: npx cypress run  --spec $test --config video=false --headed
+testSuiteStep: 90
+testSuiteTimeout: 90
+version: 0.1
