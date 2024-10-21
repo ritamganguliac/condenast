@@ -27,7 +27,7 @@ matrix:
     os:
         - mac
 maxRetries: 2
-parallelism: 1
+parallelism: 10
 partialReports:
     email:
         to:

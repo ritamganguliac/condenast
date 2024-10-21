@@ -101,14 +101,14 @@ framework:
     version: ""
     workingDirectory: ""
 globalTimeout: 100
-jobID: cdd4d0bb-613f-4b68-bf69-0e638d8fa9c2
+jobID: b03c1b43-1c91-49e8-a302-f0e7112682e0
 jobLabel:
     - cypress-v12
     - win
     - hybrid
 key: dl8Y8as59i1YyGZZUeLF897aCFvIDmaKkUU1e6RgBmlgMLIIhh
 localHTTPProxy: ""
-macParallelism: 1
+macParallelism: 10
 macTestRunnerCommand: npx cypress run  --spec $test --config video=false --headed
 matrix:
     browser:
@@ -118,7 +118,7 @@ matrix:
 maxRetries: 2
 maxRetriesPreSteps: 0
 meta: {}
-parallelism: 1
+parallelism: 10
 partialReports:
     type: html
     location: target/surefire-reports/html

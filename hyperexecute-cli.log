@@ -137,3 +137,105 @@
 {"level":"debug","time":"2024-10-20T15:20:41.625+0530","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
 {"level":"debug","time":"2024-10-20T15:20:41.625+0530","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
 {"level":"debug","time":"2024-10-20T15:21:11.600+0530","caller":"cmd/bin.go:306","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2024-10-21T13:10:21.163+0530","caller":"cmd/bin.go:120","msg":"cli os: darwin, cli arch: amd64"}
+{"level":"debug","time":"2024-10-21T13:10:21.425+0530","caller":"cmd/bin.go:129","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.224} "}
+{"level":"debug","time":"2024-10-21T13:10:23.432+0530","caller":"core/lifecycle.go:104","msg":"Setting environment"}
+{"level":"debug","time":"2024-10-21T13:10:23.433+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2024-10-21T13:10:23.433+0530","caller":"yamlconfigmanager/setup.go:593","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperExe.yml"}
+{"level":"debug","time":"2024-10-21T13:10:23.433+0530","caller":"yamlconfigmanager/setup.go:108","msg":"using hyperexecute config from : hyperExe.yml"}
+{"level":"debug","time":"2024-10-21T13:10:23.435+0530","caller":"yamlconfigmanager/setup.go:2067","msg":"Environment variable not set against the variable- matrix.os mentioned in yaml"}
+{"level":"debug","time":"2024-10-21T13:10:24.141+0530","caller":"yamlconfigmanager/setup.go:2277","msg":"Autodetecting test type in files of path : /Users/ritamg/Downloads/guru_condenast"}
+{"level":"debug","time":"2024-10-21T13:10:24.142+0530","caller":"yamlconfigmanager/setup.go:445","msg":"Tunnel: false"}
+{"level":"info","time":"2024-10-21T13:10:24.142+0530","caller":"models/HypertestYamlConfig.go:723","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2024-10-21T13:10:24.142+0530","caller":"models/HypertestYamlConfig.go:522","msg":"Mode:    \u001b[36mhybrid\u001b[0m"}
+{"level":"info","time":"2024-10-21T13:10:24.143+0530","caller":"models/HypertestYamlConfig.go:576","msg":"Parallelism:    \u001b[36m Mac - 10  Default - 10\u001b[0m"}
+{"level":"info","time":"2024-10-21T13:10:24.143+0530","caller":"models/HypertestYamlConfig.go:584","msg":"Runson:    \u001b[36m${matrix.os}\u001b[0m"}
+{"level":"info","time":"2024-10-21T13:10:24.143+0530","caller":"models/HypertestYamlConfig.go:592","msg":"Concurrency:    \u001b[36m1\u001b[0m"}
+{"level":"info","time":"2024-10-21T13:10:24.143+0530","caller":"models/HypertestYamlConfig.go:656","msg":"Report:    \u001b[36menabled\u001b[0m"}
+{"level":"info","time":"2024-10-21T13:10:24.143+0530","caller":"models/HypertestYamlConfig.go:688","msg":"Cache Directories:"}
+{"level":"info","time":"2024-10-21T13:10:24.143+0530","caller":"models/HypertestYamlConfig.go:690","msg":"    \u001b[36mnode_modules\u001b[0m"}
+{"level":"info","time":"2024-10-21T13:10:24.143+0530","caller":"models/HypertestYamlConfig.go:736","msg":""}
+{"level":"debug","time":"2024-10-21T13:10:24.143+0530","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-10-21T13:10:24.143+0530","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2024-10-21T13:10:24.498+0530","caller":"core/lifecycle.go:463","msg":"Job ID: b03c1b43-1c91-49e8-a302-f0e7112682e0"}
+{"level":"debug","time":"2024-10-21T13:10:24.498+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2024-10-21T13:10:24.500+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2024-10-21T13:10:24.502+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2024-10-21T13:10:24.502+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: /Users/ritamg/Downloads/guru_condenast"}
+{"level":"debug","time":"2024-10-21T13:10:25.148+0530","caller":"core/lifecycle.go:598","msg":"Zip file size: 4.90 MB"}
+{"level":"debug","time":"2024-10-21T13:10:25.148+0530","caller":"core/lifecycle.go:608","msg":"Archive location: /Users/ritamg/Downloads/guru_condenast/hyperexecute-code-b03c1b43-1c91-49e8-a302-f0e7112682e0.zip\n"}
+{"level":"debug","time":"2024-10-21T13:10:25.149+0530","caller":"storage/azure.go:59","msg":"Payload size: 4.90 MB, source path /Users/ritamg/Downloads/guru_condenast/hyperexecute-code-b03c1b43-1c91-49e8-a302-f0e7112682e0.zip"}
+{"level":"debug","time":"2024-10-21T13:10:25.508+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2024-10-21T13:10:30.603+0530","caller":"storage/azure.go:59","msg":"Payload size: 9.75 kB, source path /var/folders/jq/88j9fdxj7mn139__dnr_kwmh0000gq/T/git.diff"}
+{"level":"info","time":"2024-10-21T13:10:30.765+0530","caller":"storage/azure.go:114","msg":"File upload completed in 5.616492825s"}
+{"level":"debug","time":"2024-10-21T13:10:30.766+0530","caller":"receptionmanager/setup.go:251","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-10-21T13:10:30.766+0530","caller":"receptionmanager/setup.go:290","msg":"only one partialreports entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2024-10-21T13:10:30.771+0530","caller":"receptionmanager/setup.go:168","msg":"Uploading yaml : /Users/ritamg/Downloads/guru_condenast/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-10-21T13:10:30.771+0530","caller":"storage/azure.go:59","msg":"Payload size: 4.01 kB, source path /Users/ritamg/Downloads/guru_condenast/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2024-10-21T13:10:34.004+0530","caller":"storage/azure.go:114","msg":"File upload completed in 3.401156824s"}
+{"level":"info","time":"2024-10-21T13:10:35.323+0530","caller":"storage/azure.go:114","msg":"File upload completed in 4.552745725s"}
+{"level":"debug","time":"2024-10-21T13:10:35.326+0530","caller":"core/lifecycle.go:635","msg":"Successfully deleted code archive: /Users/ritamg/Downloads/guru_condenast/hyperexecute-code-b03c1b43-1c91-49e8-a302-f0e7112682e0.zip\n"}
+{"level":"debug","time":"2024-10-21T13:10:35.327+0530","caller":"storage/azure.go:59","msg":"Payload size: 1.06 kB, source path mask-b03c1b43-1c91-49e8-a302-f0e7112682e0.yaml"}
+{"level":"info","time":"2024-10-21T13:10:38.609+0530","caller":"storage/azure.go:114","msg":"File upload completed in 3.282096407s"}
+{"level":"debug","time":"2024-10-21T13:10:40.351+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: e7859026-20a7-4a47-ab90-9f5b71c9c90f"}
+{"level":"debug","time":"2024-10-21T13:10:40.351+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: e7859026-20a7-4a47-ab90-9f5b71c9c90f"}
+{"level":"debug","time":"2024-10-21T13:10:40.351+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 053eed3f-fc2c-4ea6-9321-3053ceb3fa5a"}
+{"level":"debug","time":"2024-10-21T13:10:40.351+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 053eed3f-fc2c-4ea6-9321-3053ceb3fa5a"}
+{"level":"debug","time":"2024-10-21T13:10:40.352+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 09d1e315-dfaa-42ab-bd7c-10d07a592b77"}
+{"level":"debug","time":"2024-10-21T13:10:40.352+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 09d1e315-dfaa-42ab-bd7c-10d07a592b77"}
+{"level":"debug","time":"2024-10-21T13:10:40.352+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: ca4d5ad0-7785-40b0-8a24-1a8404623373"}
+{"level":"debug","time":"2024-10-21T13:10:40.352+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: ca4d5ad0-7785-40b0-8a24-1a8404623373"}
+{"level":"debug","time":"2024-10-21T13:10:40.352+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 9fa2aa92-cce2-4093-900b-73c0cb283bba"}
+{"level":"debug","time":"2024-10-21T13:10:40.352+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 9fa2aa92-cce2-4093-900b-73c0cb283bba"}
+{"level":"debug","time":"2024-10-21T13:10:40.352+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 526ec251-2f60-492b-9961-08815aa4a936"}
+{"level":"debug","time":"2024-10-21T13:10:40.352+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 526ec251-2f60-492b-9961-08815aa4a936"}
+{"level":"debug","time":"2024-10-21T13:10:40.352+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 56732b53-be43-44da-8ab7-ab1e785bc939"}
+{"level":"debug","time":"2024-10-21T13:10:40.352+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 56732b53-be43-44da-8ab7-ab1e785bc939"}
+{"level":"debug","time":"2024-10-21T13:10:40.352+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: a651653e-16a0-4ba5-81f1-6253e31b1b52"}
+{"level":"debug","time":"2024-10-21T13:10:40.352+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: a651653e-16a0-4ba5-81f1-6253e31b1b52"}
+{"level":"debug","time":"2024-10-21T13:10:40.352+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: aafc3d23-2478-494f-b413-dc30abebf9bc"}
+{"level":"debug","time":"2024-10-21T13:10:40.352+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: aafc3d23-2478-494f-b413-dc30abebf9bc"}
+{"level":"debug","time":"2024-10-21T13:10:40.352+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 69f7218d-4dc0-4799-a0eb-011073bbb226"}
+{"level":"debug","time":"2024-10-21T13:10:40.352+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 69f7218d-4dc0-4799-a0eb-011073bbb226"}
+{"level":"info","time":"2024-10-21T13:10:45.528+0530","caller":"jobmanager/sse_setup.go:85","msg":"\nJob \u001b[1m\u001b[4mb03c1b43-1c91-49e8-a302-f0e7112682e0\u001b[24m\u001b[22m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2024-10-21T13:10:45.529+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=b03c1b43-1c91-49e8-a302-f0e7112682e0\u001b[0m\u001b[24m\n"}
+{"level":"info","time":"2024-10-21T13:10:51.537+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [9]  \u001b[2mcache-download (3s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:10:51.538+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mcache-download (3s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:10:51.590+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mcache-download (2s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:10:51.706+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mcache-download (2s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:10:51.710+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [7]  \u001b[2mcache-download (3s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:10:51.864+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2mcache-download (3s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:10:52.150+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mcache-download (3s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:10:52.312+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mcache-download (3s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:10:52.430+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [10]  \u001b[2mcache-download (3s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:10:52.442+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [8]  \u001b[2mcache-download (3s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:11:14.302+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [9]  \u001b[2mpre (23s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:11:15.582+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mpre (24s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:11:16.262+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2mpre (24s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:11:16.623+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mpre (24s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:11:16.742+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mpre (24s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:11:16.929+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [10]  \u001b[2mpre (25s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:11:17.437+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mpre (25s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:11:17.658+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [9]  \u001b[2mdiscovery (2s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:11:18.198+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [7]  \u001b[2mpre (25s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:11:18.219+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [8]  \u001b[2mpre (26s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:11:18.450+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mdiscovery (3s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:11:19.501+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2mdiscovery (3s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:11:19.610+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mdiscovery (2s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:11:19.812+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [10]  \u001b[2mdiscovery (2s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:11:20.032+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mdiscovery (3s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:11:20.366+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mdiscovery (3s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:11:21.108+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [7]  \u001b[2mdiscovery (3s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:11:21.172+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [8]  \u001b[2mdiscovery (3s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:11:32.409+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mpre (40s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:11:35.375+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mdiscovery (3s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:12:23.752+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [2]  \u001b[2mtest-suites/amp/conde-nast-traveler/adServerSelection.spec.js (42s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:13:04.493+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [9]  \u001b[2mtest-suites/verso/ad-italy/ad-italy-channels.spec.js (1m40s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:13:09.398+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [4]  \u001b[2mtest-suites/verso/ad-India/ad-india-homePage.spec.js (1m44s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:13:09.407+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [10]  \u001b[2mtest-suites/verso/ad-italy/ad-italy-homePage.spec.js (1m42s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:13:13.298+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [6]  \u001b[2mtest-suites/verso-US/architectural-digest/ad-business-profile.spec.js (1m46s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:13:16.307+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [3]  \u001b[2mtest-suites/verso-US/allure/allure-galleryPage.spec.js (1m52s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:13:18.621+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [7]  \u001b[2mtest-suites/verso-US/architectural-digest/ad-channelPage.spec.js (1m51s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:13:20.486+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [8]  \u001b[2mtest-suites/verso/ad-germany/ad-germany-homePage.spec.js (1m53s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:13:22.748+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [5]  \u001b[2mtest-suites/verso-US/architectural-digest/ad-articlePage.spec.js (1m54s)\u001b[22m\n"}
+{"level":"info","time":"2024-10-21T13:14:06.695+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [2]  \u001b[2mtest-suites/verso/conde-nast-traveller-india/conde-nast-traveller-india-homePage.spec.js (1m41s)\u001b[22m\n"}

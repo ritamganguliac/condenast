@@ -1,0 +1,7 @@
+node_modules/
+videos/
+screenshots/
+log/
+.DS_Store
+.vscode
+cypress.env.json
