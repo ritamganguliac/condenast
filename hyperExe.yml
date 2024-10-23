@@ -1,8 +1,9 @@
 autosplit: true
+shell: bash
 cacheDirectories:
     - node_modules
 cacheKey: '{{ checksum "package.json" }}'
-concurrency: 1
+concurrency: 20
 cypress: true
 cypressOps:
     Build: Hyperexecute Cypress automation test
@@ -21,17 +22,11 @@ jobLabel:
     - cypress-v12
     - win
     - hybrid
-matrix:
-    browser:
-        - firefox
-    os:
-        - mac
-maxRetries: 2
-parallelism: 10
+maxRetries: 0
 partialReports:
     email:
         to:
-            - guru_murugan@condenast.com
+            - ritamg@lambdatest.com
     frameworkName: Brand_Repo-Cypress Regression Report
     location: target/surefire-reports/html
     type: html
@@ -40,9 +35,10 @@ pre:
     - npm install cypress --save-dev
 report: true
 retryOnFailure: false
-runson: ${matrix.os}
+runson: mac
 testDiscovery:
-    command: node ritam.js
+    # command: node ritam.js 
+    command: node ritam.js > ritam.txt && cat ritam.txt
     mode: dynamic
     type: raw
 testRunnerCommand: npx cypress run  --spec $test --config video=false --headed
