@@ -1,0 +1,31 @@
+name: HyperExecute Download and Run
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  download_and_run:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Step 2: Install curl and make the script executable
+      - name: Install curl
+        run: sudo apt-get update && sudo apt-get install -y curl
+
+      # Step 3: Download the hyperexecute binary
+      - name: Download HyperExecute
+        run: curl -LO https://downloads.lambdatest.com/hyperexecute/linux/hyperexecute
+
+      # Step 4: Make the downloaded binary executable
+      - name: Make hyperexecute executable
+        run: chmod +x hyperexecute
+
+      # Step 5: Run the hyperexecute command
+      - name: Run HyperExecute
+        run: ./hyperexecute --user vishnukdas --key E2dKmfNG5TkW2DbKwpUrvtD0XAo9PUmuB6Q35A60T6whHotlnR --config hyperExe.yml
